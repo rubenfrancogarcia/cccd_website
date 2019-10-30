@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
+import "../styles/wordpress-page.css"
 
 export default ({ data }) => {
   const page = data.allWordpressPage.edges[0].node
