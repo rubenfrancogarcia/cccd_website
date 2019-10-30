@@ -6,7 +6,6 @@ import "../styles/header.css"
 const Header = ({ siteTitle }) => (
     <header>
         <div class = "navbar">
-        
             <div class = "navbar-logo">
                 <a href="/">
                     <img alt="TEMPORARY LOGO" src = "http://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png"></img><br/>

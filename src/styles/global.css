@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tajawal&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Metrophobic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 
 /*
- * Gets rid of the default hyperlink css
+ * =========== Get rid of default css ===============
  */
 a {
     color: #0060B6;
@@ -15,3 +18,19 @@ a:hover
      text-decoration:none; 
      cursor:pointer;  
 }
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+input { 
+    outline: none; 
+}
+
+/*==============================================*/
