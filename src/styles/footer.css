@@ -1,0 +1,21 @@
+footer {
+    bottom: 0;
+    background: linear-gradient(-70deg, #1a2b3c 61%, #101a23 61%);
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    position: relative;
+    margin-top: 0;
+    
+    display: flex;
+}
+
+footer > #footer-left {
+    text-align: left;
+    flex-basis: 50%;
+}
+
+footer > #footer-right {
+    text-align: right;
+    flex-basis: 50%;
+}
