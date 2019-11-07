@@ -33,7 +33,7 @@ const Header = ({ siteTitle }) => (
                     </li>
                     <li>
                     <Link  to= "/contact/">
-                            CONTACT US
+                            CONTACT
                         </Link>
                     </li>
                 </ul>

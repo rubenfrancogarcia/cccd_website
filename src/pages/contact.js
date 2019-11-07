@@ -1,10 +1,11 @@
 import React from 'react'
 import Layout from '../components/layout'
+import ContactForm from "../components/contactForm"
 
 const Contact = () => (
   <Layout>
-<div> please feel free to contact us</div>
-</Layout>
+    <ContactForm/>
+  </Layout>
 )
 
 export default Contact
