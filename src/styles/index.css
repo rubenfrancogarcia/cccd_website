@@ -3,7 +3,7 @@
     height: 100%;
     position: relative;
 	background-color:white;
-	flex: 0 70%;
+	flex: block;
 	order: -1;
 }
 
@@ -64,17 +64,34 @@
 }
 
 .home-view-content > h1 {
-    font-family: Metrophobic, sans-serif;
+    font-family: 'Helveticia Neue', Helvetica Neue, Helvetica, Arial, Sans Serif;
     font-size: 1em;
     font-weight: 300;
     margin: 2% 0;
 }
 
 .home-view-content > ul > li {
-    font-family: Metrophobic, sans-serif;
+    font-family: 'Helveticia Neue', Helvetica Neue, Helvetica, Arial, Sans Serif;
     font-size: 1em;
     font-weight: 300;
 }
 
+@media only screen and (min-width:700px) {
+	.home-view-content, .home-view-header{
+		font-size: 22px;
+		font-family: 'Helveticia Neue', Helvetica Neue, Helvetica, Arial, Sans Serif;
+	}
+
+}
+
+@media only screen and  (min-width:1000px) {
+	.home-view-content, .home-view-header {
+		font-size:26px;
+	}
+	.home-view-image {
+		min-width: 100%;
+		min-height: 200px;
+	}
+}
 
 

@@ -24,7 +24,7 @@ export default class Contact extends React.Component {
       return ( 
     <div class="col-view"> 
         <div class="box"> 
-         <div class> 
+         <div> 
                 <h2>Contact Support</h2>
             </div>
             <div class="container"> 

@@ -31,9 +31,9 @@ button[type=submit] {
   }
 
   .box {
-      width: 70%;
+      width: 100%;
       margin: 0 auto;
-      float: none;
+      float: left;
   }
 
   h2 {
@@ -49,14 +49,15 @@ button[type=submit] {
 
 @media only screen and (max-width: 690px) {
     .col-view{
-        width:100%;
+        min-width:100%;
         margin:0;
         padding: 8px;
     }
 
     .box{
-        width:100%;
-        padding: 8px;
+        min-width:100%;
+        padding: 12px;
+        margin: 6px;
     }
 
     h2 {

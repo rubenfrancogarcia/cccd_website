@@ -21,17 +21,9 @@ const IndexPage = () => (
                 <li> Service 2 </li>
                 <li> Service 3 </li>
                 <li> Service 4 </li>
-                <li> Service 5 </li>
-                <li> Service 6 </li>
-                <li> Service 3 </li>
-                <li> Service 4 </li>
-                <li> Service 5 </li>
-                <li> Service 6 </li>
             </ul>
         </div>
     </div>
-    
-    <Sidebar />
   </Layout>
 )
 

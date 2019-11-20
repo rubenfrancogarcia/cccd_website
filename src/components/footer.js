@@ -12,7 +12,8 @@ const Footer = () => (
       
       <div id="footer-right">
           Contact Us! <br/>
-          (818) 888-8888
+          (530) 297-1032<br/>
+          979 F St, Davis, CA 95616
       </div>
     </footer>
 )

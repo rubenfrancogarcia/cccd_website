@@ -14,26 +14,25 @@ const Header = ({ siteTitle }) => (
             
             <div class = "navbar-menu">
                 <ul class = "navbar-menu-items">
-                    <li>
-                    <Link to ="/about/">
-                            ABOUT US
-                        </Link>
-                    </li>
                     
                     <li id >
                     <Link to ="/services/">
-                            SERVICES
+                            Services
                         </Link>
                     </li>
-                    
+                    <li >
+                    <Link to ="/payment/">
+                            Payment
+                        </Link>
+                    </li>
                     <li>
-                    <Link to= "/donate/">
-                            DONATE
+                    <Link to ="/about/">
+                            About Us
                         </Link>
                     </li>
                     <li>
                     <Link  to= "/contact/">
-                            CONTACT
+                            Contact
                         </Link>
                     </li>
                 </ul>
