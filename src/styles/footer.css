@@ -1,6 +1,6 @@
 footer {
     bottom: 0;
-    background: linear-gradient(-70deg, #1a2b3c 61%, #101a23 61%);
+    background: linear-gradient(-70deg, #101a23 50%, #1a2b3c 50%);
     color: white;
     width: 100%;
     padding: 1rem;
@@ -10,12 +10,46 @@ footer {
     display: flex;
 }
 
-footer > #footer-left {
-    text-align: left;
+#footer-left {
+    flex-basis: 50%;
+    padding: 2% 0 0 2%;
+}
+
+#footer-left > h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 1;
+    font-size: 2em;
+}
+
+#footer-left > p {
+    font-size: 0.7em;
+    margin-top: 7%;
+}
+
+#footer-right {
     flex-basis: 50%;
 }
 
-footer > #footer-right {
-    text-align: right;
-    flex-basis: 50%;
+#footer-right > div{
+    float: right;
+    margin: 3% 30% 0 0;
+    
+    font-family: 'Tajawal', sans-serif;
+    font-size: 0.7em;
+    line-height: 20px;
 }
+
+#footer-right > div > h1 {
+    font-family: 'Tajawal', sans-serif;
+    text-decoration: underline #18a0fb;
+    font-size: 1.5em;
+    font-weight: 1;
+    margin-bottom: 0;
+}
+
+#footer-right > div > #Address {
+    margin: 10px 0;
+}
+
+
+
