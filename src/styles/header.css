@@ -20,23 +20,7 @@ header {
     flex-basis: 70%;
     
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.navbar-menu-items {
-    flex-basis: 100%;
-    
-    list-style-type: none;
-    margin: 0;
-    display: flex;
-}
-
-.navbar-menu-items > * {
-    flex: 1 100%;
-    margin: 0;
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
 }
 
 .navbar-logo > a > img {
@@ -44,3 +28,6 @@ header {
     height: 20%;
     margin: 0;
 }
+
+
+@import "navbar.css";

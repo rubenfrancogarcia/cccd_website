@@ -25,17 +25,31 @@ const Header = ({ siteTitle }) => (
                             SERVICES
                         </Link>
                     </li>
-                    
+
                     <li>
-                    <Link to= "/donate/">
-                            DONATE
-                        </Link>
-                    </li>
-                    <li>
-                    <Link  to= "/contact/">
+                    <Link to= "/contact/">
                             CONTACT
                         </Link>
                     </li>
+                            
+                    <li>
+                        <div> 
+                            MORE <p id = "caret-symbol">&#9660;</p>
+                        </div>
+                        <ul class = "hidden">
+                            <li> 
+                                <Link to= "/join/">
+                                    JOIN THE TEAM 
+                                </Link>
+                            </li>
+                            <li> 
+                                <Link to= "/donate/">
+                                    DONATE 
+                                </Link>
+                            </li>
+                        </ul>
+                    </li>
+                    
                 </ul>
             </div>
             
