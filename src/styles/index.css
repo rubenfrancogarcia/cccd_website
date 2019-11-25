@@ -42,10 +42,9 @@
 
 .home-view-title {
 	position: absolute;
-	font-family: 'Quicksand';
+	font-family: 'Raleway';
 	font-size: 3.5em;
-    font-weight: 1;
-    letter-spacing: 0.05em;
+    font-weight: bold;
 	left: 5%;
 	top: 60%;
 	color: white;

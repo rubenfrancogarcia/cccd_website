@@ -6,11 +6,11 @@ const Services = () => (
     <Layout>
         <div id = "services-body"> 
             <div id = "services-header">
+                <img src="https://www.publicdomainpictures.net/pictures/10000/nahled/new-nursing-home-299412814462365kvI.jpg"></img>
                 <div>
                     <h1> Our Services </h1>
                     <p> We specialize in these things: </p>
                 </div>
-                <img src="https://live.staticflickr.com/8087/29609189022_c374c2cbd2_b.jpg"></img>
             </div>
             <p> 
                 asd <br/> 
