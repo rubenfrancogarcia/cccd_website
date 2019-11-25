@@ -7,28 +7,30 @@
 }
 
 .info-panel {
-    padding: 2% 5%;
+    padding: 2% 7%;
     margin: 0 4% 2% 4%;
     background-color: white;
     height: auto;
 }
 
 .info-panel > h1, h2{
-    font-family: Lato, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .info-panel > h1{
-    margin: 5% 0;
-    color: #1b60a3;
-    font-size: 1.5em;
-    font-weight: 300;
+    margin-top: 5%;
+    margin-bottom: 0;
+    color: black;
+    font-size: 1.3em;
+    font-weight: light;
 }
 
 .info-panel > h2{
-    margin: 5% 0;
+    margin: 3% 0;
     font-size: 0.7em;
     color: black;
     font-weight: 300;
+    padding: 0;
 }
 
 .info-panel > button {
@@ -53,7 +55,7 @@
     font-size: 0.7em;
     width: 100%;
     text-align: left;
-    padding-left: 5%;
+    padding: 0 0 0 5%;
 }
 
 
@@ -71,7 +73,7 @@
     position: relative;
 }
 
-.segues > div ::after {
+.segues::after {
     content:'';
     top: 0;
     left: 0;
@@ -94,7 +96,7 @@
 .segues > div > p {
     font-family: 'Lato';
     position: absolute;
-    z-index: 1;
+    z-index: 9;
     bottom: 5%;
     left: 5%;
     margin: 0;
