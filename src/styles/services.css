@@ -1,0 +1,45 @@
+#services-body {
+    width: 100%;
+    position: relative;
+}
+
+#services-header {
+    position: relative;
+    display: flex;
+    background-color: #3050a1;
+}
+
+
+#services-header div {
+    flex-basis: 50%;
+    
+    padding: 5% 0 0 5%;
+}
+
+#services-header img {
+    flex-basis: 50%;
+    
+    max-width: 100%;
+    height: 30vh; 
+	object-fit: cover;
+	object-position: 0% 25%;
+	position:relative;
+    margin: 0;
+	
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#services-header div > * {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+
+#services-header div > h1 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: 1;
+}
