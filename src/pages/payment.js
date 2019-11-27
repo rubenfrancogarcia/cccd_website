@@ -1,8 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
-import '../styles/payment.css'
-
-import { PayPalButton } from "react-paypal-button-v2";
+import '../styles/payment.css' 
 
 const Payment = () => (
     <Layout>
