@@ -38,12 +38,12 @@ const Header = ({ siteTitle }) => (
                         </div>
                         <ul class = "hidden">
                             <li> 
-                                <Link to= "/join/">
+                                <Link to= "/careers/">
                                     JOIN THE TEAM 
                                 </Link>
                             </li>
                             <li> 
-                                <Link to= "/donate/">
+                                <Link to= "/payment/">
                                     DONATE 
                                 </Link>
                             </li>
