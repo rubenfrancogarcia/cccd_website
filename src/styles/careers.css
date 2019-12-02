@@ -48,7 +48,21 @@
     flex-basis: 30%;
     margin: 0;
 }
-
-#careers-main > .col-view > div > div > h2{
+ 
+/* Email form */
+#careers-main h2{
     font-size: 1em;
+}
+
+#careers-main input{
+    padding: 1px;
+}
+
+#careers-main button[type=submit] {
+    background-color: #4CAF50;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
 }
