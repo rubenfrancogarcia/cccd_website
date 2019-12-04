@@ -1,6 +1,7 @@
 #services-body {
     width: 100%;
     position: relative;
+    background-color: white;
 }
 
 #services-header {
@@ -76,3 +77,60 @@
     font-family: 'Raleway', sans-serif;
     color: white;
 }
+
+
+#blocks {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 4% auto;
+}
+
+#blocks > div {
+    flex: 0 0 30%;
+    padding: 2%;
+    margin: auto;
+    position: relative;
+    
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#blocks > div > h1 {
+    font-family: 'Lora';
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 1;
+    margin-bottom: 5%;
+}
+
+#blocks hr {
+    display: block;
+    height: 2px;
+    width: 50%;
+    float: center;
+    margin: auto;
+    margin-bottom: 10%;
+    
+    background-color: black;
+    
+}
+
+#blocks > div > p {
+    font-family: 'Raleway';
+    font-size: 0.9em;
+    overflow: hidden;
+    display: block;
+    height: 1%;
+    margin: 0;
+}
+
+#blocks > div > button {
+}
+
+#blocks .spacer {
+    border: 0px;
+    box-shadow: none;
+}
+
