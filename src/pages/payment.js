@@ -1,7 +1,8 @@
 import React from 'react'
 import Layout from '../components/layout'
 import '../styles/payment.css' 
-
+import PaypalButtons from '../components/paypal'
+        
 const Payment = () => (
     <Layout>
         <div id = "payment-main">
@@ -17,9 +18,7 @@ const Payment = () => (
                     <div>
                         <h1> Make a Payment </h1>
                         <p> If you've used our services in the past, you can make a payment here! Normal rates are $13.99 an hour </p>
-                        <div> 
-                            Paypal
-                        </div>
+                        <PaypalButtons />
                     </div>
                 </div>
                 
