@@ -23,6 +23,7 @@ const Contact = () => (
                     <div>
                         Phone: 818.111.1111 <br/>
                         Email: chc.coop.com <br/>
+                        Hours: 8am - 5pm <br/>
                     </div>
                 </div>
             </div>

@@ -1,8 +1,0 @@
-.wp-block-gallery .blocks-gallery-image, .wp-block-gallery .blocks-gallery-item {
-	margin: 8px;
-	display: flex;
-	flex-grow: 1;
-	flex-direction: column;
-	justify-content: center;
-	position: relative;
-}

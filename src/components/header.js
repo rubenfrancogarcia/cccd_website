@@ -44,7 +44,7 @@ const Header = ({ siteTitle }) => (
                             </li>
                             <li> 
                                 <Link to= "/payment/">
-                                    DONATE 
+                                    MAKE A PAYMENT 
                                 </Link>
                             </li>
                         </ul>

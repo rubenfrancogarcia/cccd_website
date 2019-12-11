@@ -93,8 +93,13 @@ export default class Contact extends React.Component {
     }
  }
 
-  {/* FormSpring info: 
+/* 
+FormSpring info: 
 email: rubengarcia0515@gmail.com
 pw: Arson793.
 link: https://formspree.io/forms/moqqqygd/integration
-formName: homecare_contact*/}
+formName: homecare_contact
+*/
+
+
+

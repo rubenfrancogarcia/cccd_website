@@ -6,7 +6,7 @@ const Services = () => (
     <Layout>
         <div id = "services-body"> 
             <div id = "services-header">
-                <img src="https://cdn.pixabay.com/photo/2014/08/03/23/41/house-409451_960_720.jpg"></img>
+                <img src="https://cdn.pixabay.com/photo/2014/08/03/23/41/house-409451_960_720.jpg" alt="Services - Header"></img>
                 <div>
                     <h1> Our Services </h1>
                     <p> We specialize in these things: </p>

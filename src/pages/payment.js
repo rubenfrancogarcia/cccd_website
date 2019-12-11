@@ -7,7 +7,7 @@ const Payment = () => (
     <Layout>
         <div id = "payment-main">
             <div id = "payment-header">
-                <img src="https://p2.piqsels.com/preview/271/703/795/copy-space-notebook-wooden-journal.jpg"></img>
+                <img src="https://p2.piqsels.com/preview/271/703/795/copy-space-notebook-wooden-journal.jpg" alt="Make a Payment - Header"></img>
                 <div>
                     <h1> Online Payments </h1>
                 </div>
@@ -25,7 +25,7 @@ const Payment = () => (
                 <div id = "donate-container">
                     <div>
                         <h1> Make a Donation </h1>
-                        <p> Please consider making a donation! You can subsidize our workers by making a tax-deductible donation to the California Center for Cooperative Development </p>
+                        <p> Please consider making a donation! You can subsidize our workers by making a tax-deductible donation </p>
                         <a href="https://www.cccd.coop/"> here </a>
                     </div>
                     

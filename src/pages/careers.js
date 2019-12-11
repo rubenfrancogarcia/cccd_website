@@ -9,7 +9,7 @@ const careers = () => (
             <div id = "careers-left"> 
                 <h1> Join Our Team! </h1>
                 <p> Passionate about people? Join our Team! </p>
-                <img src="https://www.coombefamilypractice.com/uploads/pages/team.jpg"/>
+                <img src="https://www.coombefamilypractice.com/uploads/pages/team.jpg" alt="Our Team!"></img>
                 <p> 
                     Description about the team Description about the team Description about the team Description about the team Description about the team Description about the team Description about the team Description about the team Description about the team Description about the team Description about the team Description about the team Description about the team 
                 </p>
