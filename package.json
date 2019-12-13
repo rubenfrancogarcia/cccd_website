@@ -7,6 +7,7 @@
   "dependencies": {
     "gatsby": "^2.17.9",
     "gatsby-image": "^2.2.30",
+    "gatsby-paypal-button": "^1.0.5",
     "gatsby-plugin-manifest": "^2.2.26",
     "gatsby-plugin-offline": "^3.0.18",
     "gatsby-plugin-react-helmet": "^3.1.13",

@@ -27,13 +27,14 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    /*
     {
       resolve: `gatsby-source-wordpress`,
       options: {
-        /*
-         * The base URL of the WordPress site without the trailingslash and the protocol. This is required.
-         * Example : 'dev-gatbsyjswp.pantheonsite.io' or 'www.example-site.com'
-         */
+        //
+        // The base URL of the WordPress site without the trailingslash and the protocol. This is required.
+        // Example : 'dev-gatbsyjswp.pantheonsite.io' or 'www.example-site.com'
+        //
         baseUrl: `http://cccdhomecare.local`,
         // The protocol. This can be http or https.
         protocol: `http`,
@@ -47,6 +48,7 @@ module.exports = {
         useACF: true,
       },
     },
+    */
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
