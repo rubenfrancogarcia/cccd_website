@@ -47,14 +47,14 @@
     height: 100%;
     display: block;
     position: absolute;
-    background: #054F67;
+    background: #143A9B;
     opacity: 0.5;
 }
 
 #services-header > div {
 	position: absolute;
 	font-family: 'Raleway';
-	left: 40%;
+	left: 37%;
 	top: 9vh;
 	color: white;
 	z-index: 2;
@@ -62,8 +62,8 @@
 }
 
 #services-header > div > h1 {
-    font-size: 2em;
-    font-weight: bold;
+    font-size: 2.5em;
+    font-weight: 900;
     margin: 0;
 }
 
@@ -78,59 +78,183 @@
     color: white;
 }
 
-
-#blocks {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 4% auto;
-}
-
-#blocks > div {
-    flex: 0 0 30%;
-    padding: 2%;
-    margin: auto;
-    position: relative;
-    
-    border: 1px solid #ccc;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#blocks > div > h1 {
-    font-family: 'Lora';
+#services-blocks > h1 {
     text-align: center;
-    font-size: 1.5em;
-    font-weight: 1;
-    margin-bottom: 5%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 3%;
 }
 
-#blocks hr {
-    display: block;
-    height: 2px;
-    width: 50%;
-    float: center;
+#section1 {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 3%;
+}
+
+
+.big-service-block {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    padding: 2% 0;
+    flex-basis: 45%;
+    box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.15)
+}
+
+.big-service-block > img {
+    height: 100px;
+    width: 100px;
     margin: auto;
-    margin-bottom: 10%;
-    
-    background-color: black;
-    
+    border-radius: 50px;
+    border: 2px solid #4287f5;
+    box-shadow: 0 0 1px 3px #4287f5;
+    padding: 5%;
 }
 
-#blocks > div > p {
-    font-family: 'Raleway';
-    font-size: 0.9em;
-    overflow: hidden;
-    display: block;
-    height: 1%;
+.big-service-block > div {
+    flex-basis: 60%
+}
+
+
+.big-service-block > div > ul {
+    list-style-type: none;
     margin: 0;
 }
 
-#blocks > div > button {
+.big-service-block > div > h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #1032DE;
+    font-size: 1.7em;
+    font-weight: 500;
+    margin-bottom: 5%;
 }
 
-#blocks .spacer {
-    border: 0px;
-    box-shadow: none;
+.big-service-block li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 0.7em;
+    margin: 0;
+    margin-top: -10px;
+}
+
+
+#section2 {
+    margin: 4% 0;
+    padding: 1% 0 6% 0;
+    background-color: #F7F7F7;
+}
+
+#section2 > h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    margin: 3% 0;
+}
+
+#section2 > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#section2 > div > div {
+    flex-basis: 30%;
+    box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.15);
+    height: 220px; /* questionable */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding-top: 1%;
+}
+
+#section2 > div > div > h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    font-weight: 200;
+    margin-bottom: 10px;
+    color: #1032DE;
+}
+
+#section2 > div > div > p {
+    margin-left: 5%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.7em;
+}
+
+
+
+
+#section3 {
+    display: flex;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#section3 > h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    text-align: center;
+}
+
+#pricing-panel > p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8em;
+    font-weight: 200;
+    text-align: center;
+}
+
+#pricing-panel > table {
+    border-collapse: separate;
+}
+
+#pricing-panel > table > * {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 1em;
+}
+
+#pricing-panel .table-inner {
+    text-align: center;
+}
+
+#pricing-panel .table-hours {
+    width: 30%;
+    padding-left: 2%;
+}
+
+#pricing-panel .table-category {
+    color: white;
+    padding-left: 2%;
+    font-weight: 200;
+}
+
+#pricing-panel li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8em;
+}
+
+#cancellation-panel {
+    margin: 4% 0;
+}
+
+#cancellation-panel > h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    text-align: center;
+}
+
+#cancellation-panel > p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8em;
 }
 
