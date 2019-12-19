@@ -17,7 +17,7 @@ const Payment = () => (
                 <div id = "paypal-container">
                     <div>
                         <h1> Make a Payment </h1>
-                        <p> If you've used our services in the past, you can make a payment here! Normal rates are $13.99 an hour </p>
+                        <p> If you've used our services in the past, you can make a payment here! </p>
                         <PaypalButtons />
                     </div>
                 </div>
@@ -25,7 +25,8 @@ const Payment = () => (
                 <div id = "donate-container">
                     <div>
                         <h1> Make a Donation </h1>
-                        <p> Please consider making a donation! You can subsidize our workers by making a tax-deductible donation </p>
+                        <p> A tax-deductible donation to the non-profit, the California Center 
+                            for Cooperative Development helps them support the sustainability and growth of Co-op Homecare!</p>
                         <a href="https://www.cccd.coop/"> here </a>
                     </div>
                     

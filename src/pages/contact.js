@@ -9,21 +9,21 @@ const Contact = () => (
         <ContactForm/>
         <div id = "contact-info">
             <div>
-                <h1> Coop Homecare </h1>
+                <h1> Co-op Homecare </h1>
                 <div id = "location">
                     <h1> Location: </h1>
                     <div>
-                        1111 Coop Drive <br/>
-                        Davis, CA <br/>
+                    979 F Street, Suite A-1 <br/>
+                        Davis, CA 95616<br/>
                     </div>
                 </div>
                     
                 <div id = "direct-contact">
                     <h1> Direct Contact: </h1>
                     <div>
-                        Phone: 818.111.1111 <br/>
+                        Phone: 530-297-1032<br/>
                         Email: chc.coop.com <br/>
-                        Hours: 8am - 5pm <br/>
+                        Hours: 9am - 5pm <br/>
                     </div>
                 </div>
             </div>

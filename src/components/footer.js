@@ -6,7 +6,7 @@ const Footer = () => (
     <footer>
       <div id="footer-left">
            <h1> Coop Homecare </h1>
-           <p> Copyright © California Center for Cooperative Development </p>
+           <p> California Center for Cooperative Development </p>
       </div>
       
       <div id="footer-right">
@@ -14,13 +14,14 @@ const Footer = () => (
               <h1> CONTACT INFO </h1>
           
               <p id = "Address">
-                  1111 Coop Drive <br/>
-                  Davis, CA 91322 <br/>
+              979 F Street, Suite A-1 <br/>
+                  Davis, CA 95616 <br/>
               </p>
               
               <p id = "OtherContactInfo">
-                  Phone: 1 (800) 800-8000 <br/>
-                  Email: coop@coop.net
+                  Phone:  530-297-1032 <br/>
+                  <a href="tel:530-297-1023"> CLICK TO CALL NOW </a> <br/>
+                  Email: coop@coop.net 
               </p>
           </div>
 

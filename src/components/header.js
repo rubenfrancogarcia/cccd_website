@@ -1,59 +1,39 @@
 import PropTypes from "prop-types"
 import React from "react"
 import "../styles/header.css"
-import {Link} from "gatsby"
+import logo from '../images/cooplogo150px.png';
+
+
 
 const Header = ({ siteTitle }) => (
     <header>
-        <div class = "navbar">
-            <div class = "navbar-logo">
-                <a href="/">
-                    <img alt="TEMPORARY LOGO" src = "http://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png"></img><br/>
-                </a>
-            </div>
-            
-            <div class = "navbar-menu">
-                <ul class = "navbar-menu-items">
-                    <li>
-                    <Link to ="/about/">
-                            ABOUT US
-                        </Link>
-                    </li>
-                    
-                    <li id >
-                    <Link to ="/services/">
-                            SERVICES
-                        </Link>
-                    </li>
-
-                    <li>
-                    <Link to= "/contact/">
-                            CONTACT
-                        </Link>
-                    </li>
-                            
-                    <li>
-                        <div> 
-                            MORE <p id = "caret-symbol">&#9660;</p>
+        <div class= "header-container"> 
+            <div class = "logo-container"> 
+                <div class = "logo">
+                    <a href="/">
+                        <img alt="TEMPORARY LOGO" class="header-logo"src = {logo} ></img><br/>
+                    </a>
+                    </div>
+                </div>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <a href="tel:530-297-1023"> CLICK TO CALL NOW </a>
                         </div>
-                        <ul class = "hidden">
-                            <li> 
-                                <Link to= "/careers/">
-                                    JOIN THE TEAM 
-                                </Link>
-                            </li>
-                            <li> 
-                                <Link to= "/payment/">
-                                    MAKE A PAYMENT 
-                                </Link>
-                            </li>
+
+                </div>
+                <div class="slogan-container">
+                    <div class="slogan">
+                    <ul> 
+                        <ol>Cooperative Homecare </ol>
+                        <ol> Local, Compassionate Care</ol> 
+                        <ol> Trusted  * Caregiver Owned</ol>                   
                         </ul>
-                    </li>
-                    
-                </ul>
-            </div>
-            
+                    </div>
+                </div>
+       
+        
         </div>
+        
     </header>
 )
 
