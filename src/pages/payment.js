@@ -17,7 +17,7 @@ const Payment = () => (
                 <div id = "paypal-container">
                     <div>
                         <h1> Make a Payment </h1>
-                        <p> If you've used our services in the past, you can make a payment here! Normal rates are $13.99 an hour </p>
+                        <p> If you've used our services in the past, you can make a payment here! A 2% fee will be charged for all online/credit card payments </p><br/> 
                         <PaypalButtons />
                     </div>
                 </div>
@@ -25,8 +25,22 @@ const Payment = () => (
                 <div id = "donate-container">
                     <div>
                         <h1> Make a Donation </h1>
-                        <p> Please consider making a donation! You can subsidize our workers by making a tax-deductible donation </p>
-                        <a href="https://www.cccd.coop/"> here </a>
+                        <p> A tax-deductible donation to the non-profit, the California Center 
+                            for Cooperative Development helps them support the sustainability 
+                            and growth of Co-op Homecare!</p>
+                            <div class ="link-container"><a href="https://cccd.coop/membership/donate-cccd"> Click to support the CCCD  </a> </div>
+                    </div>
+                    
+                </div>
+
+                <div id = "check-container">
+                    <div>
+                        <h1> Pay by Check  </h1>
+                        <p> Payments via checks will not be charged a fee. Please send all checks  
+                            addressed to <strong> Co-op Home Care </strong>to the following address 
+                            <strong> 979 F street, Suite A-2, Davis, California 95616.</strong>.  
+                        </p>
+                        <div class ="link-container"><a href="https://goo.gl/maps/ogjx6M2Ku7BCKEUA7"> Click for Directions  </a> </div>
                     </div>
                     
                 </div>

@@ -1,3 +1,6 @@
+.active {
+    background-color: grey;
+}
 
 
 .navbar-menu-items {
@@ -6,19 +9,25 @@
     list-style-type: none;
     margin: 0;
     display: flex;
+    padding-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 1;
+    font-size: 2em;
 }
 
 .navbar-menu-items > * {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
     flex: 1 100%;
-    margin: 0;
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    margin: 0;   
 }
+
 
 .navbar-menu ul {
     list-style:none;
     margin:0;
-    padding:0;
+    padding-left: 10%;
+    padding-right: 10%;
     background-color: white;
 }
 .navbar-menu ul:before,.nav ul:after {
@@ -55,10 +64,12 @@
 }
 .navbar-menu ul > li:hover ul li {
     height:36px;
+    
 }
 
 .navbar-menu ul > li:hover .hidden {
     border-top: 5px solid #2e77bf;
+    
 }
 
 .navbar-menu ul > li > div {

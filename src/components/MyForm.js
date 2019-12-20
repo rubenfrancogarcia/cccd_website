@@ -1,42 +1,24 @@
 import React from 'react'
-import '../styles/contactForm.css'
 
-export default class Contact extends React.Component {
-    state = {
-      firstName:"",
-      lastName:'',
-      emailAddress:"",
-      message:"",
+export default class MyForm extends React.Component {
+    constructor(props) {
+      super(props);
+      this.submitForm = this.submitForm.bind(this);
+      this.state = {
+        status: ""
+      };
     }
-    
-    handleInputChange = event => {
-      const target = event.target 
-      const value= target.value 
-      const name= target.name 
-      this.setState({
-        [name]: value,
-      })
-    }
-    
-    handleSubmit = event => {
-      event.preventDefault()
-      alert(`Welcome ${this.state.firstName} ${this.state.lastName}!`)
-    } 
-    
+  
     render() {
-        return ( 
-            <div class="col-view"> 
-                <div class="box"> 
-                    <div class> 
-                        <h2>Drop us an Email!</h2>
-                    </div>
-                    <div class="container"> 
-                        <form id="fs-contact" 
-                        method="POST" 
-                        action="https://formspree.io/moqqqygd"  
-                        onSubmit={this.handleSubmit} 
-                        > 
-                            <div class="item"> 
+      const { status } = this.state;
+      return (
+        <form
+         id="fs-contact"
+          onSubmit={this.submitForm}
+          action="https://formspree.io/moqqqygd"
+          method="POST"
+        >
+          <div class="item"> 
                                 <label> First Name  
                                     <input type="text" 
                                     name="firstName"
@@ -84,14 +66,34 @@ export default class Contact extends React.Component {
                             </div>
                         
                             <button type="submit" value="send">Submit</button>
-                            
-                        </form>
-                    </div>
-                </div>  
-            </div>         
-        )
+          
+
+
+          {status === "SUCCESS" && <p>Thanks!</p>}
+          {status === "ERROR" && <p>Ooops! There was an error.</p>}
+        </form>
+      );
     }
- }
+  
+    submitForm(ev) {
+      ev.preventDefault();
+      const form = ev.target;
+      const data = new FormData(form);
+      const xhr = new XMLHttpRequest();
+      xhr.open(form.method, form.action);
+      xhr.setRequestHeader("Accept", "application/json");
+      xhr.onreadystatechange = () => {
+        if (xhr.readyState !== XMLHttpRequest.DONE) return;
+        if (xhr.status === 200) {
+          form.reset();
+          this.setState({ status: "SUCCESS" });
+        } else {
+          this.setState({ status: "ERROR" });
+        }
+      };
+      xhr.send(data);
+    }
+  }
 
 /* 
 FormSpring info: 

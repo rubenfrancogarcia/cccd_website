@@ -30,7 +30,7 @@ const Services = () => (
                                 <li>Medical Team Liaison</li>
                                 <li>Recreational and Community Activities</li>
                                 <li>Planning, Preparing & Serving Nutritious Meals</li>
-                                <li>Shopping, Errands, Transportation</li>
+                                <li>Shopping, Errands</li>
                                 <li>Tell us other ways we can help!</li>
                             </ul>  
                         </div>
@@ -125,7 +125,7 @@ const Services = () => (
                             <li>After one hour has elapsed, shifts are billed in quarter-hour increments.</li>
                             <li>Clients receiving round-the-clock care will be billed a discounted flat rate of $650 per 24 hours.</li>
                             <li>We charge time and one half for services provided on the following holidays: New Year’s Day, Memorial Day, Independence Day, Labor Day, Thanksgiving Day, and Christmas Day.</li>
-                            <li>Clients are charged for mileage when services for the client include client transportation (e.g. errands, transportation to appointments…). Mileage is charged at the current IRS standard mileage rate.</li>
+                            <li>Clients are charged for mileage when services for the client include client transportation (e.g. errands, shopping). Mileage is charged at the current IRS standard mileage rate.</li>
                         </ul>  
                     </div>
                     

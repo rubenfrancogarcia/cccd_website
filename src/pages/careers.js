@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
-import ContactForm from "../components/contactForm"
 import "../styles/careers.css"
+import ContactTemplate from '../components/contactTemplate'
 
 const careers = () => (
     <Layout>
@@ -16,7 +16,7 @@ const careers = () => (
                 <a href="/about"> Learn more about us > </a>
             </div>
             
-            <ContactForm/>
+            <ContactTemplate/>
         </div>
     </Layout>
 )
