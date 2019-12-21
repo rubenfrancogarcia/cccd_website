@@ -1,0 +1,25 @@
+.PaypalButtonContainer > #InputContainer {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.PaypalButtonContainer > #InputContainer > p {
+    margin: 0;
+    font-size: 0.7em;
+}
+
+.PaypalButtonContainer > #InputContainer > input {
+    margin: 2px 0 0 4px;
+    width: 40%;
+    height: 10%;
+    font-size: 0.8em;
+    text-align: right;
+}
+
+.PaypalButtonContainer > #InputContainer > #dollar-sign {
+    position: absolute;
+    font-family: Raleway;
+    text-align: left;
+    display: block;
+    width: 25px;
+}

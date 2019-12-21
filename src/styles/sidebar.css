@@ -1,0 +1,104 @@
+
+.sidebar {
+    flex: 0 30%;
+    order: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-panel {
+    padding: 2% 7%;
+    margin: 0 4% 2% 4%;
+    background-color: white;
+    height: auto;
+}
+
+.info-panel > h1, h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+.info-panel > h1{
+    margin-top: 5%;
+    margin-bottom: 0;
+    color: black;
+    font-size: 1.3em;
+    font-weight: light;
+}
+
+.info-panel > h2{
+    margin: 3% 0;
+    font-size: 0.7em;
+    color: black;
+    font-weight: 300;
+    padding: 0;
+}
+
+.info-panel > button {
+    margin: 1% 0;
+    color: white;
+    background-color: #1b60a3;
+    font-family: Raleway;
+    font-size: 0.7em;
+    width: 100%;
+    text-align: left;
+    padding: 1% 5%;
+}
+
+.info-panel > input {
+    margin: 1% 0;
+    color: black;
+    background-color: white;
+    border: #1b60a3;
+    border-style: solid;
+    border-width: 2px;
+    font-family: Raleway;
+    font-size: 0.7em;
+    width: 100%;
+    text-align: left;
+    padding: 0 0 0 5%;
+}
+
+
+
+.segues {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.segues > div {
+    margin: 1% 5% 3% 5%;
+    max-width: 100%;
+    height: 15vh;
+    position: relative;
+}
+
+.segues::after {
+    content:'';
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background: white;
+    opacity: 0.3;
+}
+
+
+.segues > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.segues > div > p {
+    font-family: 'Lato';
+    position: absolute;
+    z-index: 9;
+    bottom: 5%;
+    left: 5%;
+    margin: 0;
+    font-weight: 300;
+}

@@ -1,0 +1,99 @@
+#About-Header {
+    height: 30vh;
+    width: 100%;
+    position: relative;
+}
+
+#About-Header > img {
+	height: 30vh; 
+ 	width: 100%; 
+	object-fit: cover;
+	object-position: 0% 45%;
+	position:relative;
+    margin: 0;
+	
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#About-Header::after {
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background: #054F67;
+    opacity: 0.5;
+}
+
+#About-Header > div {
+	position: absolute;
+	font-family: 'Raleway';
+	left: 40%;
+	top: 7vh;
+	color: white;
+	z-index: 2;
+    text-align: center;
+}
+
+#About-Header > div > h1 {
+	font-family: 'Raleway';
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+}
+
+#About-Header > div > p {
+	font-family: 'Raleway';
+    font-size: 1em;
+    font-weight: 1;
+}
+
+
+#About-Body {
+    display:flex;
+}
+
+#About-Left {
+    flex-basis: 50%;
+    padding: 5%;
+    font-family: 'Raleway';
+    font-weight: Medium;
+}
+
+#About-Left > * {
+    font-family: 'Raleway';
+    font-weight: Medium;
+}
+
+#About-Left > h1 {
+    font-size: 2em;
+}
+
+#About-Left > p {
+    font-size: 1em;
+}
+
+#About-Right {
+    flex-basis: 50%;
+    padding: 5% 5%;
+}
+
+#About-Right > div {
+    border-right: 2px solid #6A8CB0;
+    padding: 0 2%;
+    position: relative;
+}
+
+#About-Right > div > img{
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    margin: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
