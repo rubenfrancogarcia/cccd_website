@@ -36,15 +36,15 @@ footer {
     float: right;
     margin: 3% 30% 0 0;
     
-    font-family: 'Lato', sans-serif;
+    font-family: 'Tajawal', sans-serif;
     font-size: 1em;
     line-height: 20px;
 }
 
 #footer-right > div > h1 {
-    font-family: 'Tajawal', sans-serif;
-    text-decoration: underline #18a0fb;
-    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+    text-decoration: underline #006bd6;
+    font-size: 1.2em;
     font-weight: 1;
     margin-bottom: 0;
 }
@@ -53,5 +53,16 @@ footer {
     margin: 10px 0;
 }
 
+#OtherContactInfo > a {
+    color: white;
+    -webkit-transition: color 0.2s;
+    -moz-transition:    color 0.2s;
+    -ms-transition:     color 0.2s;
+    -o-transition:      color 0.2s;
+    transition:         color 0.2s;
+}
 
+#OtherContactInfo > a:hover {
+    color: #18a0fb;
+}
 

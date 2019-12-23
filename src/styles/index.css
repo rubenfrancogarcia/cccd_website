@@ -11,10 +11,10 @@
 	height: 40vh; 
  	width: 100%; 
 	object-fit: cover;
-	object-position: 0% 45%;
+	object-position: 50% 50%;
 	position:relative;
     margin: 0;
-	
+    
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -36,7 +36,7 @@
     display: block;
     position: absolute;
     background: black;
-    opacity: 0.2;
+    opacity: 0.35;
 }
 
 
@@ -64,17 +64,11 @@
     padding: 2% 5%;
 }
 
-.home-view-content > h1 {
+.home-view-content {
     font-family: Lato, sans-serif;
     font-size: 1em;
     font-weight: 300;
     margin: 2% 0;
-}
-
-.home-view-content > ul > li {
-    font-family: Lato, sans-serif;
-    font-size: 1em;
-    font-weight: 300;
 }
 
 img {

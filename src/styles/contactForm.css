@@ -30,6 +30,10 @@ button[type=submit]:hover {
     border-radius: 5px;
 }
 
+.item {
+        font-family: 'Raleway', sans-serif;
+}
+
 .box {
     width: 80%;
     margin: 0 auto;

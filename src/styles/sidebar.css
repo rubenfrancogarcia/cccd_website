@@ -7,30 +7,37 @@
 }
 
 .info-panel {
-    padding: 2% 7%;
     margin: 0 4% 2% 4%;
     background-color: white;
-    height: auto;
 }
 
-.info-panel > h1, h2{
+.info-panel > h1, h2 {
     font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
 
-.info-panel > h1{
+.info-panel > h1 {
     margin-top: 5%;
     margin-bottom: 0;
     color: black;
     font-size: 1.3em;
-    font-weight: light;
+    text-decoration: underline #006bd6;
 }
 
-.info-panel > h2{
-    margin: 3% 0;
+.info-panel > h2 {
+    margin-top: 4%;
     font-size: 0.7em;
     color: black;
     font-weight: 300;
     padding: 0;
+}
+
+.info-panel > h2 > ul {
+    margin: 0;
+}
+
+.info-panel > h2 > ul > ol {
+    margin-left: 0;
 }
 
 .info-panel > button {
@@ -73,7 +80,8 @@
     position: relative;
 }
 
-.segues::after {
+.segues > div::after {
+    background-image: linear-gradient(to right, rgba(8, 65, 168,1) 20%, rgba(255,0,0,0) 100%);
     content:'';
     top: 0;
     left: 0;
@@ -82,8 +90,7 @@
     height: 100%;
     display: block;
     position: absolute;
-    background: white;
-    opacity: 0.3;
+    opacity: 0.7;
 }
 
 
@@ -93,12 +100,19 @@
     object-fit: cover;
 }
 
-.segues > div > p {
-    font-family: 'Lato';
+.segues > div > a {
+    font-family: Tajawal, sans-serif;
+    font-weight: 900;
     position: absolute;
     z-index: 9;
     bottom: 5%;
     left: 5%;
     margin: 0;
     font-weight: 300;
+    color: white;
+}
+
+
+.segue2 > img {
+    object-position: 0% 20%;
 }

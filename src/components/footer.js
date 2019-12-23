@@ -10,22 +10,19 @@ const Footer = () => (
       </div>
       
       <div id="footer-right">
-          <div>
-              <h1> CONTACT INFO </h1>
+            <div>
+                <h1> CONTACT INFO </h1>
           
-              <p id = "Address">
-              979 F Street, Suite A-1 <br/>
-                  Davis, CA 95616 <br/>
-              </p>
+                <p id = "Address">
+                    979 F Street, Suite A-1 <br/>
+                    Davis, CA 95616 <br/>
+                </p>
               
-              <p id = "OtherContactInfo">
-                  Phone:  530-297-1032 <br/>
-                  <a href="tel:530-297-1023"> CLICK TO CALL NOW </a> <br/>
-                  Email: info@cccd.coop <br/>
-                  <a href = "mailto: info@cccd.coop">CLICK TO EMAIL US</a>
-              </p>
-          </div>
-
+                <p id = "OtherContactInfo">
+                    <a href="tel:530-297-1023"> Phone:  530-297-1032 </a> <br/>
+                    <a href = "mailto: info@cccd.coop"> Email: info@cccd.coop</a>
+                </p>
+            </div>
       </div>
     </footer>
 )

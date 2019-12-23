@@ -13,7 +13,7 @@ const Contact = () => (
                 <div id = "location">
                     <h1> Location: </h1>
                     <div>
-                    979 F Street, Suite A-1 <br/>
+                        979 F Street, Suite A-1 <br/>
                         Davis, CA 95616<br/>
                     </div>
                 </div>
@@ -21,8 +21,8 @@ const Contact = () => (
                 <div id = "direct-contact">
                     <h1> Direct Contact: </h1>
                     <div>
-                        Phone: 530-297-1032<br/>
-                        Email: info@cccd.coop <br/>
+                        <a href="tel:530-297-1023"> Phone:  530-297-1032 </a> <br/>
+                        <a href = "mailto: info@cccd.coop"> Email: info@cccd.coop</a> <br/>
                         Hours: 9am - 5pm <br/>
                     </div>
                 </div>
