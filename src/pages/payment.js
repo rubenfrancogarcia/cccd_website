@@ -40,7 +40,9 @@ const Payment = () => (
                             addressed to <strong> Co-op Home Care </strong>to the following address 
                             <strong> 979 F street, Suite A-2, Davis, California 95616.</strong>.  
                         </p>
-                        <div class ="link-container"><a href="https://goo.gl/maps/ogjx6M2Ku7BCKEUA7"> Click for Directions  </a> </div>
+                        <div class ="link-container">
+                            <a href="https://goo.gl/maps/ogjx6M2Ku7BCKEUA7"> Click for Directions  </a> 
+                        </div>
                     </div>
                     
                 </div>
