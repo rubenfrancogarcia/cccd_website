@@ -28,7 +28,7 @@ const Payment = () => (
                         <p> A tax-deductible donation to the non-profit, the California Center 
                             for Cooperative Development helps them support the sustainability 
                             and growth of Co-op Homecare!</p>
-                            <div class ="link-container"><a href="https://cccd.coop/membership/donate-cccd"> Click to support the CCCD  </a> </div>
+                            <div class ="link-container"><a href="https://cccd.coop/membership/donate-cccd"> Click to donate to CCCD  </a> </div>
                     </div>
                     
                 </div>
@@ -41,7 +41,7 @@ const Payment = () => (
                             <strong> 979 F street, Suite A-2, Davis, California 95616.</strong>.  
                         </p>
                         <div class ="link-container">
-                            <a href="https://goo.gl/maps/ogjx6M2Ku7BCKEUA7"> Click for Directions  </a> 
+                            <a href="https://goo.gl/maps/ogjx6M2Ku7BCKEUA7"> Click for Instructions  </a> 
                         </div>
                     </div>
                     

@@ -6,6 +6,15 @@ import logo from "../images/coopLogo150px.png"
 
 const Header = ({ siteTitle }) => (
     <header>
+    
+        <div class = "navbar" id = "top-navbar">
+            <p> Co-op Homecare </p>
+            <div>
+                <p> &#9743; 1-530-297-1032 </p>
+                <p> &#9993; info@cccd.coop </p>
+            </div>
+        </div>
+        
         <div class = "navbar">
             <div class = "navbar-logo">
                 <a href="/">

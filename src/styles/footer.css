@@ -42,15 +42,15 @@ footer {
 }
 
 #footer-right > div > h1 {
-    font-family: 'Lato', sans-serif;
-    text-decoration: underline #006bd6;
+    font-family: 'Tajawal', sans-serif;
+    text-decoration: underline #035e8f;
     font-size: 1.2em;
     font-weight: 1;
     margin-bottom: 0;
 }
 
 #footer-right > div > #Address{
-    margin: 10px 0;
+    margin: 3px 0 10px 0;
 }
 
 #OtherContactInfo > a {

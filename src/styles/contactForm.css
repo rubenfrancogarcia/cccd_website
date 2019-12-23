@@ -46,6 +46,7 @@ button[type=submit]:hover {
 h2 {
     margin: auto;
     padding-bottom: 10px;
+    font-weight: 100;
 }
 
 .col-view {

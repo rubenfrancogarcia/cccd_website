@@ -33,17 +33,16 @@
 
 #About-Header > div {
 	position: absolute;
-	font-family: 'Raleway';
 	left: 40%;
-	top: 7vh;
+	top: 10vh;
 	color: white;
 	z-index: 2;
     text-align: center;
 }
 
 #About-Header > div > h1 {
-	font-family: 'Raleway';
-    font-size: 2em;
+	font-family: Raleway;
+    font-size: 2.5em;
     font-weight: bold;
     margin: 0;
 }

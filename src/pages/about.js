@@ -9,7 +9,6 @@ const About = () => (
                 <img src="https://live.staticflickr.com/8254/29720268335_95dd33d92f_b.jpg" alt="About Us Header" />
                 <div>
                     <h1> About Us </h1>
-                    <p> - One line mission statement </p>
                 </div>
             </div>
         

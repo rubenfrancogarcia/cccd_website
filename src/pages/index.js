@@ -17,7 +17,7 @@ const IndexPage = () => (
         <div class="home-view-content">
             We’re a local home care cooperative!  Call or email us for a FREE consultation to review Care Options. 
             <br/><br/>
-            Co-op Homecare is a worker-owned cooperative dedicated to providing the highest quality of care for our clients.
+            <b>Co-op Homecare</b> is a worker-owned cooperative dedicated to providing the highest quality of care for our clients.
             Caregivers co-own and democratically control the business.  The worker-owned model provides us with a compassionate 
             workplace that promotes worker dignity, we incorporate these values into the work we do every day.
             
@@ -26,8 +26,8 @@ const IndexPage = () => (
             All caregivers are trained, first-aid certified, and have passed a background check.
             
             <br/><br/>
-            As a cooperative, our team of caregivers work together to provide compassionate, high quality 
-            in-home support services. Our business model emphasizes kindness to workers and kindness to clients.
+            <b>As a cooperative, our team of caregivers work together to provide compassionate, high quality 
+            in-home support services. Our business model emphasizes kindness to workers and kindness to clients. </b>
         </div>
     </div>
     

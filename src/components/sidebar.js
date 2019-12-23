@@ -7,7 +7,7 @@ const Sidebar = () => (
             <h1> Co-op Homecare </h1>
             <h2> 
                 <ul> 
-                        <ol>Cooperative Home Care </ol>
+                        <ol> Cooperative Home Care </ol>
                         <ol> Local, Compassionate Care</ol> 
                         <ol> Trusted, Caregiver Owned</ol>                   
                 </ul>  
