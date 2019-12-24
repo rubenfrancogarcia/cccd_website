@@ -10,8 +10,8 @@ const Header = ({ siteTitle }) => (
         <div class = "navbar" id = "top-navbar">
             <p> Co-op Homecare </p>
             <div>
-                <p> &#9743; 1-530-297-1032 </p>
-                <p> &#9993; info@cccd.coop </p>
+                <a href="tel:530-297-1023"> &#9743; 1-530-297-1032 </a>
+                <a href = "mailto: info@cccd.coop"> &#9993; info@cccd.coop </a>
             </div>
         </div>
         
@@ -48,9 +48,9 @@ const Header = ({ siteTitle }) => (
                         </Link>
                     </li>
                      <li> 
-                            <Link to= "/payment/">
-                                MAKE A PAYMENT 
-                            </Link>
+                        <Link to= "/payment/">
+                            MAKE A PAYMENT 
+                        </Link>
                     </li>
                                  
                     

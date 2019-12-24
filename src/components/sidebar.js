@@ -25,7 +25,7 @@ const Sidebar = () => (
                 <a href="https://coophomecare.coop/careers/">  Join the Team!  </a>
             </div>
             <div class="segue1">
-                <img alt="Why Coops?" src="https://pixnio.com/free-images/people/crowd/african-american-female-talking-with-one-blond-young-woman-and-with-one-man-725x483.jpg"></img>
+                <img alt="Why Coops?" src={"../images/segue1.jpg"}></img>
                 <a href="https://coophomecare.coop/about/">  Why Coops? </a>
             </div>
             

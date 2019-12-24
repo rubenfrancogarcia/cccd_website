@@ -56,6 +56,15 @@ header {
     white-space: nowrap;
     background-color: #0682c4;
     flex-basis: 50%;
+    -webkit-transition: color 0.2s;
+    -moz-transition:    color 0.2s;
+    -ms-transition:     color 0.2s;
+    -o-transition:      color 0.2s;
+    transition:         color 0.2s;
+}
+
+#top-navbar > div > *:hover {
+    color: #00ffee;
 }
 
 @import "navbar.css";
