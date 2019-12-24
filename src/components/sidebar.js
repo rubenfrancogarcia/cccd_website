@@ -1,5 +1,6 @@
 import React from "react"
 import "../styles/sidebar.css"
+import segue1 from "../images/segue1.jpg"
 
 const Sidebar = () => (
     <div class="sidebar">
@@ -25,7 +26,7 @@ const Sidebar = () => (
                 <a href="https://coophomecare.coop/careers/">  Join the Team!  </a>
             </div>
             <div class="segue1">
-                <img alt="Why Coops?" src={"../images/segue1.jpg"}></img>
+                <img alt="Why Coops?" src={segue1}></img>
                 <a href="https://coophomecare.coop/about/">  Why Coops? </a>
             </div>
             
