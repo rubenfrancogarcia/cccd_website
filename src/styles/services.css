@@ -5,7 +5,7 @@
 }
 
 #services-header {
-    height: 30vh;
+    height: 40vh;
     width: 100%;
     position: relative;
 }
@@ -25,7 +25,7 @@
 
 
 #services-header img {
-	height: 30vh; 
+	height: 40vh; 
  	width: 100%; 
 	object-fit: cover;
 	object-position: 0% 45%;
@@ -136,7 +136,7 @@
 .big-service-block li {
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
-    font-size: 0.7em;
+    font-size: .75em;
     margin: 0;
     margin-top: -10px;
 }
@@ -165,31 +165,28 @@
 #section2 > div > div {
     flex-basis: 30%;
     box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.15);
-    height: 220px; /* questionable */
+    height: 200px; /* questionable */
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: white;
-    padding-top: 1%;
+    padding-top: 2%;
 }
 
 #section2 > div > div > h1 {
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-weight: 200;
     margin-bottom: 10px;
     color: #1032DE;
 }
 
 #section2 > div > div > p {
-    margin-left: 5%;
+    margin-left: 3%;
     font-family: 'Raleway', sans-serif;
-    font-size: 0.7em;
+    font-size: .7em;
 }
-
-
-
 
 #section3 {
     display: flex;

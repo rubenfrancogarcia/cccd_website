@@ -20,27 +20,39 @@ export default class MyForm extends React.Component {
         >
 
         <div class="item"> 
-            <label> First Name  
+            <label> Name
                 <input type="text" 
-                name="firstName"
-                value={this.state.firstName}
+                name="Name"
+                value={this.state.fullName}
                 onChange={this.handleInputChange}
                 id="name"
                 /> 
             </label>
         </div>
 
-        <div class="item"> 
-            <label> 
-                Last Name 
+        <div class="item">
+            <label>
+                Phone Number
                 <input type="text"
-                name="lastName"
-                value={this.state.lastName}
+                name="Phone Number"
+                value={this.state.phoneNumber}
                 onChange={this.handleInputChange}
-                id="lastName"
+                id="phoneNumber"
                 />
             </label>
         </div>
+
+          <div className="item">
+            <label>
+              Zip Code
+              <input type="text"
+                     name="Zip Code"
+                     value={this.state.zipCode}
+                     onChange={this.handleInputChange}
+                     id="zipCode"
+              />
+            </label>
+          </div>
 
         <div class="item"> 
             <label> Email Address 

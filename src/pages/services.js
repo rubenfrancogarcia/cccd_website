@@ -95,12 +95,12 @@ const Services = () => (
                     <h1> Pricing </h1>
                     
                     <div id="pricing-panel">
-                        <p> Hourly charges for private-pay home care service are adjusted based on the amount of time scheduled. The minimum amount of time is one hour: </p>
+                        <p> Hourly charges for private-pay home care service are adjusted based on the amount of time scheduled. The minimum amount of time is one hour. </p>
                         <table>
                           <tr>
-                            <th class="table-category table-hours" bgcolor="#fdb225">Hours</th>
-                            <th class="table-category table-inner" bgcolor="#ef3f30">Weekdays</th>
-                            <th class="table-category table-inner" bgcolor="#ef3f30">Weekends</th>
+                            <th class="table-category table-hours" bgcolor="#4287f5">Hours</th>
+                            <th class="table-category table-inner" bgcolor="#1c3a6b">Weekdays</th>
+                            <th class="table-category table-inner" bgcolor="#1c3a6b">Weekends</th>
                           </tr>
                           <tr>
                             <td class="table-hours" bgcolor="white">1 Hour</td>

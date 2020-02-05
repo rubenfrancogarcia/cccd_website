@@ -2,8 +2,12 @@ import React from 'react'
 import Layout from '../components/layout'
 import '../styles/payment.css' 
 import PaypalButtons from '../components/paypal'
-        
+
+
+
+
 const Payment = () => (
+   
     <Layout>
         <div id = "payment-main">
             <div id = "payment-header">
@@ -25,8 +29,7 @@ const Payment = () => (
                 <div id = "donate-container">
                     <div>
                         <h1> Make a Donation </h1>
-                        <p> A tax-deductible donation to the non-profit, the California Center 
-                            for Cooperative Development helps them support the sustainability 
+                        <p> A tax-deductible donation to the non-profit, the <i> California Center for Cooperative Development </i> helps them support the sustainability 
                             and growth of Co-op Homecare!</p>
                             <div class ="link-container"><a href="https://cccd.coop/membership/donate-cccd"> Click to donate to CCCD  </a> </div>
                     </div>

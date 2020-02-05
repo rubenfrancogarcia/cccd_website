@@ -22,7 +22,7 @@ const Sidebar = () => (
             </div>
             
             <div class="segue2">
-                <img alt="Join the Team" src="https://p0.piqsels.com/preview/98/611/678/5be9549d51172-thumbnail.jpg"></img>
+                <img alt="Join the Team" src="https://i.imgur.com/lPvlzyx.jpg"></img>
                 <a href="https://coophomecare.coop/careers/">  Join the Team!  </a>
             </div>
             <div class="segue1">
