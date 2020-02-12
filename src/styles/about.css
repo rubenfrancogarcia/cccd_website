@@ -1,11 +1,11 @@
 #About-Header {
-    height: 40vh;
+    height: 35vh;
     width: 100%;
     position: relative;
 }
 
 #About-Header > img {
-	height: 40vh;
+	height: 35vh;
  	width: 100%;
 	object-fit: cover;
 	object-position: 0% 35%;

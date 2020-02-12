@@ -21,7 +21,7 @@ const Payment = () => (
                 <div id = "paypal-container">
                     <div>
                         <h1> Make a Payment </h1>
-                        <p> If you've used our services in the past, you can make a payment here! A 2% fee will be charged for all online/credit card payments </p><br/> 
+                        <p> If you've used our services in the past, you can make a payment here! A 2% fee will be charged for all online/credit card payments <br/> </p><br/>
                         <PaypalButtons />
                     </div>
                 </div>

@@ -11,7 +11,7 @@ const careers = () => (
                 <p> Passionate about people? Join our Team! </p>
                 <img src="https://i.imgur.com/xo0vtgG.jpg" alt="Our Team!"></img>
                 <p> 
-                    Description about the team Description about the team Description about the team Description about the team Description about the team Description about the team Description about the team Description about the team Description about the team Description about the team Description about the team Description about the team Description about the team 
+                    Description about the team Description about the team Description about the team Description about the team Description about the team Description about the team Description about the team Description about the team Description about the team Description about the team Description about the team Description about the team Description about the team
                 </p>
                 <a href="/about"> Learn more about us > </a>
             </div>

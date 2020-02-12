@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import '../styles/contact.css'
 import ContactTemplate from '../components/contactTemplate'
 
+
 const Contact = () => (
   <Layout>
     <div id = "contact-main">
@@ -25,10 +26,17 @@ const Contact = () => (
                         <a href = "mailto: info@cccd.coop"> Email: info@cccd.coop</a> <br/>
                         Hours: 9am - 5pm <br/>
                     </div>
+
                 </div>
+
+            </div>
+            <div id = "logobig">
+                <img src="https://i.imgur.com/BLlFGoX.png" alt="logobig"></img>
             </div>
         </div>
+
     </div>
+
   </Layout>
 )
 
