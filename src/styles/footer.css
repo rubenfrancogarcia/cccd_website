@@ -66,3 +66,12 @@ footer {
     color: #18a0fb;
 }
 
+@media only screen and (max-width: 365px) {
+    #footer-left>p {
+        font-size:12px;
+       }
+
+    #footer-right > div  {
+        font-size: 14px;
+    }
+}
