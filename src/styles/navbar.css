@@ -1,47 +1,118 @@
-.navbar-menu-items {
-    flex-basis: 100%;  
-    list-style-type: none;
-    margin: 0;
+.mobile-nav {
+    order: -1;
+    color: black;
+    display: none;
+
+}
+
+.menu-text {
+    display: inline-block;
+    margin-left: 6px;
+    font-size: 1.5rem;
+    color:  #033d5c;
+    padding-top: 20px;
+}
+
+.responsive-menu {
+    text-align: center;
+}
+
+.display {
+    display: none;
+}
+
+.link-box {
+    border: solid 1px #033d5c;
+  }
+
+.navbar {
     display: flex;
 }
 
-.navbar-menu-items > * {
-    flex: 1 100%;
+.navbar-logo {
+    flex-basis: 30%;
+    margin: auto;
+    text-align: center;
+    order: 2;
+}
+
+.navbar-logo > a > img {
+    max-width: 60%;
+    max-height: 100px;
     margin: 0;
-    font-family: 'Raleway', sans-serif;
-    font-size: 13px;
 }
 
-.navbar-menu ul {
-    list-style:none;
-    margin:0;
-    padding:0;
-    background-color: white;
-}
-.navbar-menu ul:before,.nav ul:after {
-    content:"";
-    display:table;
-}
-.navbar-menu ul:after {
-    clear:both;
-}
-.navbar-menu ul > li {
-    float:left;
-    position:relative;
-    height: 40px;
-    color: #4a80c2;
-}
-.navbar-menu li ul li {
-    width:150px;
+.navbar-menu-items {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
-.navbar-menu li ul {
-    position:absolute;
-    left:-30px;
-    top:36px;
-    z-index:999;
-    padding: 10px 0 0 20px;
+li {
+    flex: 1 1;
+    text-align: center;    
 }
+
+.navbar-menu {
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 100%;
+    order: 2;
+
+}
+
+.navbar-menu-items {
+    font-size: 20px;
+}
+
+.ham-image {
+    min-height: 80%;
+    min-width: 100%;
+    margin-top: 12px;
+}
+
+
+.navbar-top {
+    display: flex;
+}
+
+
+@media only screen and (max-width: 529px) {
+    .navbar-menu {
+        display: none;
+    }
+
+    .navbar-logo {
+    align-self: flex-end;
+    margin-right: 10px;
+    flex: 1 1;
+    text-align: right;
+    }
+
+    .mobile-nav {
+        display: flex;
+        margin-left: 10px;
+    }
+
+    .responsive-menu {
+        display: block;
+    }
+
+    
+}
+
+@media only screen and (max-width: 800px) and (min-width: 529px) {
+    .navbar-menu-items  {
+        font-size: 14px;
+    }
+}
+
+
 
 
 

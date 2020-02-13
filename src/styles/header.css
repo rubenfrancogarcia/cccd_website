@@ -1,30 +1,7 @@
 header {
     background-color: white;
-    margin-bottom: 1.45rem;
+    margin-bottom: 0;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 0px;
-}
-
-.navbar {
-    display: flex;
-}
-
-.navbar-logo {
-    flex-basis: 25%;
-    margin: auto;
-    text-align: center;
-}
-
-.navbar-menu {
-    flex-basis: 75%;
-    display: flex;
-    align-items: center;
-}
-
-.navbar-logo > a > img {
-    width: 40%;
-    height: 20%;
-    margin: 0;
 }
 
 #top-navbar {
@@ -43,12 +20,14 @@ header {
 #top-navbar > p {
     padding-left: 5%;
     flex-basis: 70%;
+    flex: 2 2;
 }
 
 #top-navbar > div {
     display: flex;
     justify-content: flex-end;
     flex-basis: 30%;
+    flex: 1;
 }
 
 #top-navbar > div > * {
@@ -66,5 +45,17 @@ header {
 #top-navbar > div > *:hover {
     color: #00ffee;
 }
+
+@media only screen and (max-width: 350px) {
+    .navbar-top {
+        flex-direction: column;
+    }
+
+    #top-navbar > div > * {
+        padding-left: 10px;
+    }
+
+
+} 
 
 @import "navbar.css";

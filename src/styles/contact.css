@@ -8,7 +8,7 @@
 #contact-info {
     flex-basis: 35%;
     width: 80%;
-    margin-top: 10%;
+    margin-top: 4%;
 }
 
 .col-view {
@@ -74,4 +74,21 @@
 
 #direct-contact > div > a:hover {
     color: #18a0fb;
+}
+
+#logo {
+    flex-basis: 50%;
+    /*padding: 10% 30%;*/
+}
+
+#logo > div {
+    position: relative;
+}
+
+#logo > div > img{
+    position: relative;
+    width: 100%;
+    /*object-fit: contain;*/
+    /*margin: 0;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
