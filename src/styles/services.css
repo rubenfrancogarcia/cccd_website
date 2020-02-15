@@ -1,13 +1,22 @@
+h1, h2 , h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+h4 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
 #services-body {
-    width: 100%;
-    position: relative;
+    min-width: 100%;
     background-color: white;
 }
 
 #services-header {
     height: 35vh;
     width: 100%;
-    position: relative;
 }
 
 
@@ -17,10 +26,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-#services-header div > h1 {
-    margin: 0;
 }
 
 
@@ -47,7 +52,6 @@
     height: 100%;
     display: block;
     position: absolute;
-    background: #054F67;
     opacity: 0.5;
 }
 
@@ -61,11 +65,6 @@
     text-align: center;
 }
 
-#services-header > div > h1 {
-    font-size: 2.5em;
-    font-weight: 900;
-    margin: 0;
-}
 
 #services-header > div > p {
     font-size: 1em;
@@ -78,21 +77,13 @@
     color: white;
 }
 
-#services-blocks > h1 {
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-size: 2em;
-    font-weight: 500;
-    margin: 0;
-    margin-top: 3%;
-}
+
 
 #section1 {
     display: flex;
     background-color: white;
-    align-items: center;
     justify-content: space-evenly;
-    padding-top: 3%;
+    padding-top: 20px;
 }
 
 
@@ -106,8 +97,8 @@
 }
 
 .big-service-block > img {
-    height: 150px;
-    width: 150px;
+    max-height: 150px;
+    max-width: 150px;
     margin: auto;
     border-radius: 50px;
     border: 2px solid #4287f5;
@@ -125,14 +116,6 @@
     margin: 0;
 }
 
-.big-service-block > div > h1 {
-    font-family: 'Raleway', sans-serif;
-    color: #1032DE;
-    font-size: 1.7em;
-    font-weight: 500;
-    margin-bottom: 5%;
-}
-
 .big-service-block li {
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
@@ -144,47 +127,33 @@
 
 
 #section2 {
-    margin: 4% 0;
-    padding: 1% 0 6% 0;
+    margin-top: 16px;
+    padding: 10px 0 10px 0;
     background-color: #F7F7F7;
+    display: flex;
 }
 
-#section2 > h1 {
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-size: 2em;
-    font-weight: 500;
-    margin: 3% 0;
-}
+
 
 #section2 > div {
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
 }
 
 #section2 > div > div {
     flex-basis: 30%;
     box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.15);
-    height: 290px; /* questionable */
     display: flex;
     flex-direction: column;
     /*justify-content: space-between;*/
     background-color: white;
-    padding-top: 2%;
+    padding-top: 8px;
 }
 
-#section2 > div > div > h1 {
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.7em;
-    font-weight: 200;
-    margin-bottom: 10px;
-    color: #1032DE;
-}
 
 #section2 > div > div > p {
-    margin-left: 6%;
+    margin-left: 20px;
+    margin-right: 20px;
     font-family: 'Raleway', sans-serif;
     font-size: .9em;
     line-height: 2;
@@ -192,18 +161,11 @@
 }
 
 #section3 {
-    display: flex;
     padding: 0 5%;
     display: flex;
     flex-direction: column;
 }
 
-#section3 > h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 2em;
-    font-weight: 500;
-    text-align: center;
-}
 
 #pricing-panel > p {
     font-family: 'Raleway', sans-serif;
@@ -244,18 +206,46 @@
 }
 
 #cancellation-panel {
-    margin: 4% 0;
+    margin-top: 8px;
 }
 
-#cancellation-panel > h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 2em;
-    font-weight: 500;
-    text-align: center;
-}
 
 #cancellation-panel > p {
     font-family: 'Raleway', sans-serif;
     font-size: 0.9em;
+}
+
+@media only screen and (max-width: 800px)  {
+    .big-service-block > img {
+       display: none;
+    }
+
+    .big-service-block {
+      
+        flex-basis: 50%;
+    }
+
+    .big-service-block > div {
+        flex-basis: 100%
+    }
+
+    .big-service-block > div > h1 {
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width: 695px) {
+    #section1 {
+        flex-direction: column;
+        padding-top: 0;
+    }
+    #section2 > div {
+        flex-direction: column;
+    }
+
+    #section2 > div > div {
+        box-shadow: 0;
+    }
 }
 

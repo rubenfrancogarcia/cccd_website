@@ -5,21 +5,22 @@ import "../styles/services.css"
 const Services = () => (
     <Layout>
         <div id = "services-body"> 
+            <div className = "servics-intro">
+                <h1> Our Services</h1>
+                <h2>Specialization and Business Emphasis</h2>
+            </div>
             <div id = "services-header">
                 <img src="https://cdn.pixabay.com/photo/2014/08/03/23/41/house-409451_960_720.jpg" alt="Services - Header"></img>
-                <div>
-                    <h1> Our Services </h1>
-                    <p> Specialization and Business Emphasis </p>
-                </div>
             </div>
             
             <div id = "services-blocks">
-                <h1> General Services </h1>
+            <h3> General Services </h3>
                 <div id="section1">
-                    <div class="big-service-block">
+                
+                    <div className="big-service-block">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ71yU2rkwTg_K3pD8MkW3UaCoBMy3LdNBEWv77pk0C2-PcRNzkBw&s" alt="Personal Care Icon"></img>
                         <div>
-                            <h1> Personal Care </h1>
+                            <h4> Personal Care </h4>
                             <ul>
                                 <li>Mobility Assistance</li>
                                 <li>Companionship</li>
@@ -36,10 +37,10 @@ const Services = () => (
                         </div>
                     </div>
                     
-                    <div class="big-service-block">
+                    <div className="big-service-block">
                         <img src="https://cdn.pixabay.com/photo/2014/04/03/00/41/house-309113_960_720.png" alt="Home Care Icon"></img>
                         <div>
-                            <h1> Care for the Home </h1>
+                            <h4> Care for the Home </h4>
                             <ul>
                                 <li>Laundry</li>
                                 <li>Linen changing</li>
@@ -58,12 +59,12 @@ const Services = () => (
                 </div>
                 
                 
-            
+                <h3>Specialty Services</h3>
                 <div id="section2">
-                    <h1>Specialty Services</h1>
+                    
                     <div>
                         <div>
-                            <h1> Dementia </h1>
+                            <h4> Dementia </h4>
                             <p> 
                                 Most caregivers are specially trained in caring for clients across the spectrum of progressive dementia. 
                                 Training includes compassionately and skillfully recognizing cognitive and psychological/behavior changes.
@@ -71,7 +72,7 @@ const Services = () => (
                         </div>
                         
                         <div>
-                            <h1> Disabilities </h1>
+                            <h4> Disabilities </h4>
                             <p> 
                                 We provide personal care services for adults who are recovering from a serious injury or illness, have  
                                 chronic conditions or progressive diseases, physical disabilities, or cognitive disabilities.
@@ -79,7 +80,7 @@ const Services = () => (
                         </div>
                         
                         <div>
-                            <h1> Private Care </h1>
+                            <h4> Private Care </h4>
                             <p> 
                                 We accept private pay clients and cater to client needs. We will work with Long Term Care Insurance Plans 
                                 for client claim reimbursement.   At this time we are unable to accept public pay clients, but hope to 
@@ -90,32 +91,33 @@ const Services = () => (
                     
                 </div>
                 
+
+                  <h3>Pricing</h3>
                 <div id="section3">
-                
-                    <h1> Pricing </h1>
                     
                     <div id="pricing-panel">
+                        <h4>Hourly Rates</h4>
                         <p> Hourly charges for private-pay home care service are adjusted based on the amount of time scheduled. The minimum amount of time is one hour. </p>
                         <table>
                           <tr>
-                            <th class="table-category table-hours" bgcolor="#4287f5">Hours</th>
-                            <th class="table-category table-inner" bgcolor="#1c3a6b">Weekdays</th>
-                            <th class="table-category table-inner" bgcolor="#1c3a6b">Weekends</th>
+                            <th className="table-category table-hours" bgcolor="#4287f5">Hours</th>
+                            <th className="table-category table-inner" bgcolor="#1c3a6b">Weekdays</th>
+                            <th className="table-category table-inner" bgcolor="#1c3a6b">Weekends</th>
                           </tr>
                           <tr>
-                            <td class="table-hours" bgcolor="white">1 Hour</td>
-                            <td class="table-inner" bgcolor="#FAFAFA">43.00/hr</td>
-                            <td class="table-inner" bgcolor="#FAFAFA">43.00/hr</td>
+                            <td className="table-hours" bgcolor="white">1 Hour</td>
+                            <td className="table-inner" bgcolor="#FAFAFA">43.00/hr</td>
+                            <td className="table-inner" bgcolor="#FAFAFA">43.00/hr</td>
                           </tr>
                           <tr>
-                            <td class="table-hours"bgcolor="white">2 Hours</td>
-                            <td class="table-inner" bgcolor="#FAFAFA">34.00/hr</td>
-                            <td class="table-inner" bgcolor="#FAFAFA">34.00/hr</td>
+                            <td className="table-hours"bgcolor="white">2 Hours</td>
+                            <td className="table-inner" bgcolor="#FAFAFA">34.00/hr</td>
+                            <td className="table-inner" bgcolor="#FAFAFA">34.00/hr</td>
                           </tr>
                           <tr>
-                            <td class="table-hours"bgcolor="white">3 or More Hours</td>
-                            <td class="table-inner" bgcolor="#FAFAFA">29.50/hr</td>
-                            <td class="table-inner" bgcolor="#FAFAFA">34.00/hr</td>
+                            <td className="table-hours"bgcolor="white">3 or More Hours</td>
+                            <td className="table-inner" bgcolor="#FAFAFA">29.50/hr</td>
+                            <td className="table-inner" bgcolor="#FAFAFA">34.00/hr</td>
                           </tr>
                         </table>
                         
@@ -131,7 +133,7 @@ const Services = () => (
                     
 
                     <div id="cancellation-panel">
-                            <h1>Cancellations and Changes</h1>
+                            <h4>Cancellations and Changes</h4>
                             <p> 
                                 We ask clients to kindly provide as much notice as possible when cancelling services.  
                                 If a caregiver is en-route to, or arrives for a scheduled shift and the client declines 
