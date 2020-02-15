@@ -92,3 +92,43 @@
     /*margin: 0;*/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+@media only screen and (max-width: 550px) {
+    #contact-main {
+        flex-direction: column;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    #direct-contact {
+        align-items: center;
+    }
+
+    #contact-info  {
+        min-width: 80%;
+        width: 100%;
+    }
+
+    #contact-info > div {
+        width: 100%;
+    }
+
+    #location, #direct-contact > div{
+        text-align: center;
+    }
+
+    .logo {
+        max-width: auto;
+        max-height: 200px;
+    }
+}
+
+@media only screen and (max-width: 759px) {
+    * {
+        font-size: 0.85rem;
+    }
+
+   .col-view {
+       margin-right: 12px;
+   } 
+}
