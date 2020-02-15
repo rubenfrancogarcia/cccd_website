@@ -1,4 +1,8 @@
-#payment-main {
+#payment-mobile-view {
+    display: none;
+}
+
+#payment-wide-view {
     width: 100%;
     position: relative;
 }
@@ -156,6 +160,37 @@
     background-color: rgba(116, 43, 189, 0.2);
 }
 
+
+@media only screen and (max-width: 579px) {
+        #payment-wide-view {
+            display: none;
+        }
+
+        #payment-mobile-view {
+            display: inline-block;
+        }
+
+        #donate-container, #check-container , #paypal-container {
+            background-image: none;
+        }
+
+        #donate-container::after , #check-container::after , #paypal-container::after {
+            display: none;
+        }
+
+        #payment-body > * > * {
+            display: inline-block;
+        }
+
+        h1 {
+            text-align: center;
+            margin-left: 5px;
+            margin-right: 5px;
+            font-weight: 400;
+        }
+
+        
+}
 
 
 
