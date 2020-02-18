@@ -53,46 +53,55 @@
     font-weight: 1;
 }
 
-
-#About-Body {
-    display:flex;
+.image {
+position: relative;
+width: 100%;
+min-width: 300px;
+object-fit: cover;
+margin: 0;
+    
 }
 
-#About-Left {
-    flex-basis: 50%;
-    padding: 5%;
-    font-family: 'Raleway';
-    font-weight: Medium;
+.content-image {
+    margin-left: 30px;
+    margin-top: 12px;
 }
 
-#About-Left > * {
-    font-family: 'Raleway';
-    font-weight: Medium;
+.content {
+    display: flex;
+    text-align: center;
 }
 
-#About-Left > h1 {
-    font-size: 2em;
-}
-
-#About-Left > p {
-    font-size: 1em;
-}
-
-#About-Right {
-    flex-basis: 50%;
-    padding: 5% 5%;
-}
-
-#About-Right > div {
+.content-info {
     border-right: 2px solid #6A8CB0;
     padding: 0 2%;
     position: relative;
+    margin-bottom: 20px;
 }
 
-#About-Right > div > img{
-    position: relative;
-    width: 100%;
-    object-fit: cover;
-    margin: 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.philosophy {
+    display: flex;
+    flex-direction: column;
 }
+
+#about-body {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.mission {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 1.9rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .content-image {
+        display: none;
+    }
+}
+    
