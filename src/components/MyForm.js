@@ -19,7 +19,7 @@ export default class MyForm extends React.Component {
           method="POST"
         >
 
-        <div class="item"> 
+        <div className="item"> 
             <label> Name
                 <input type="text" 
                 name="Name"
@@ -30,7 +30,7 @@ export default class MyForm extends React.Component {
             </label>
         </div>
 
-        <div class="item">
+        <div className="item">
             <label>
                 Phone Number
                 <input type="text"
@@ -54,7 +54,7 @@ export default class MyForm extends React.Component {
             </label>
           </div>
 
-        <div class="item"> 
+        <div className="item"> 
             <label> Email Address 
                 <input type="text"
                 name="emailAddress"
@@ -65,7 +65,7 @@ export default class MyForm extends React.Component {
             </label>
         </div>
 
-        <div class="item"> 
+        <div className="item"> 
             <label> Message
                 <textarea rows="5"
                     input type="text" 

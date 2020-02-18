@@ -19,7 +19,7 @@ export default class Header extends Component  {
         return(
             <header>
     
-            <div class = "navbar-top" id = "top-navbar">
+            <div className = "navbar-top" id = "top-navbar">
                 <p> Co-op Homecare </p>
                 <div>
                     <a href="tel:530-297-1023"> &#9743; 1-530-297-1032 </a>
@@ -27,19 +27,19 @@ export default class Header extends Component  {
                 </div>
             </div>
             
-            <div class = "navbar">
-                <div class="mobile-nav">   
-                <button onClick={this.Toggle}><img class="ham-image" alt="LOGO" src = {hamburger} /> </button>
-                <p class="menu-text">Menu</p> 
+            <div className = "navbar">
+                <div className="mobile-nav">   
+                <button onClick={this.Toggle}><img className="ham-image" alt="LOGO" src = {hamburger} /> </button>
+                <p className="menu-text">Menu</p> 
                 </div>
-                <div class = "navbar-logo">
+                <div className = "navbar-logo">
                     <a href="/">
                         <img alt="LOGO" src = {logo}></img><br/>
                     </a>
                 </div>
                 
-                <div class = "navbar-menu">
-                    <ul class = "navbar-menu-items">
+                <div className = "navbar-menu">
+                    <ul className = "navbar-menu-items">
                         <li>
                         <Link to ="/about/">
                                 ABOUT US
@@ -74,28 +74,28 @@ export default class Header extends Component  {
                 </div>
                 
             </div>
-            <div class={ this.state.toggle ? "responsive-menu" : "display"}>
-                    <div class="link-box"> 
+            <div className={ this.state.toggle ? "responsive-menu" : "display"}>
+                    <div className="link-box"> 
                     <Link to= "/payment/">
                                 HOME 
                             </Link>
                     </div> 
-                    <div class="link-box"> 
+                    <div className="link-box"> 
                     <Link to ="/about/">
                                 ABOUT US
                             </Link>
                     </div> 
-                    <div class="link-box"> 
+                    <div className="link-box"> 
                     <Link to ="/services/">
                                 SERVICES
                             </Link>
                     </div> 
-                    <div class="link-box"> 
+                    <div className="link-box"> 
                     <Link to= "/contact/">
                                 CONTACT
                             </Link>
                     </div> 
-                    <div class="link-box"> 
+                    <div className="link-box"> 
                     <Link to= "/payment/">
                                 MAKE A PAYMENT 
                             </Link>

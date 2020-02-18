@@ -33,7 +33,7 @@ import '../styles/PaypalButtons.css';
 export default class PaypalButtons extends React.Component {
     render() {
         return (
-            <div class="PaypalButtonContainer">
+            <div className="PaypalButtonContainer">
                 <div id="InputContainer">
                     <p> Amount: </p>
                     <input type="number" defaultValue={total} onChange={(e)=>{total = e.target.value;}} />

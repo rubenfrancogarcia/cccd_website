@@ -8,12 +8,12 @@ export default class ContactTemplate extends React.Component {
     
     render() {
         return ( 
-            <div class="col-view"> 
-                <div class="box"> 
-                    <div class> 
+            <div className="col-view"> 
+                <div className="box"> 
+                    <div> 
                         <h2>Drop us an Email!</h2>
                     </div>
-                    <div class="container"> 
+                    <div className="container"> 
                         <MyForm/>
                     </div>
                 </div>  
