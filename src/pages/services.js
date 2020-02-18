@@ -7,7 +7,7 @@ const Services = () => (
         <div id = "services-body"> 
             <div className = "servics-intro">
                 <h1> Our Services</h1>
-                <h2>Specialization and Business Emphasis</h2>
+                <h2>Specializatiogitn and Business Emphasis</h2>
             </div>
             <div id = "services-header">
                 <img src="https://cdn.pixabay.com/photo/2014/08/03/23/41/house-409451_960_720.jpg" alt="Services - Header"></img>
@@ -99,7 +99,8 @@ const Services = () => (
                         <h4>Hourly Rates</h4>
                         <p> Hourly charges for private-pay home care service are adjusted based on the amount of time scheduled. The minimum amount of time is one hour. </p>
                         <table>
-                          <tr>
+                            <tbody> 
+                            <tr>
                             <th className="table-category table-hours" bgcolor="#4287f5">Hours</th>
                             <th className="table-category table-inner" bgcolor="#1c3a6b">Weekdays</th>
                             <th className="table-category table-inner" bgcolor="#1c3a6b">Weekends</th>
@@ -119,6 +120,8 @@ const Services = () => (
                             <td className="table-inner" bgcolor="#FAFAFA">29.50/hr</td>
                             <td className="table-inner" bgcolor="#FAFAFA">34.00/hr</td>
                           </tr>
+
+                            </tbody>
                         </table>
                         
                         <ul>
