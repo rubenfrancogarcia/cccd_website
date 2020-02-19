@@ -7,7 +7,7 @@ const Services = () => (
         <div id = "services-body"> 
             <div className = "servics-intro">
                 <h1> Our Services</h1>
-                <h2>Specializatiogitn and Business Emphasis</h2>
+                <h2>Specialization and Business Emphasis</h2>
             </div>
             <div id = "services-header">
                 <img src="https://cdn.pixabay.com/photo/2014/08/03/23/41/house-409451_960_720.jpg" alt="Services - Header"></img>
