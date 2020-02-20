@@ -15,14 +15,15 @@ const About = () => (
             <div id = "About-Body">
                    <div class= "content ">
                         <div class="content-info ">
-                                    <h2> Our Mission</h2>
+                                    <h2 class={"content-header"}> Our Mission</h2>
                                     <div class="content mission ">
+
                                     <p> 
                                     Thank you for considering Co-op Homecare. We specialize in providing quality, compassionate caregiving services.</p>
 
                                         <p><b>Our mission is to provide compassionate, high quality in-home support services to our clients.</b></p>
                                     </div>
-                                    <h2> Our Philosophy</h2>
+                                    <h2 class={"content-header"}> Our Philosophy</h2>
                                     <div class="content philosophy">
                                         <div>
                                         <p>Our worker-owned cooperative offers a win-win for clients and caregivers. Caregivers co-own this business; we chose this work because we enjoy caregiving.  The worker cooperative model provides us control over our workplace policies and better compensation.  This benefits clients who gain quality services from a committed team.</p> 
@@ -36,7 +37,7 @@ const About = () => (
                                             </div>
 
                             </div>
-                            <h2>Our Vision</h2>
+                            <h2 class={"content-header"} >Our Vision</h2>
                             <div class="content vision">
                             <p>CCCD expects to be providing assistance to the cooperative through 2021 to provide a solid foundation for 
                             business success and growth. The goal is for the cooperative to grow and offer worker-cooperative opportunities to more caregivers within 

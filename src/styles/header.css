@@ -7,7 +7,7 @@ header {
 #top-navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #033d5c;
+    background-color: #1c3a6b;
 }
 
 #top-navbar * {

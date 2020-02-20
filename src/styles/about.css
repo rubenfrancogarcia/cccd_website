@@ -50,38 +50,56 @@
 #About-Header > div > p {
 	font-family: 'Raleway';
     font-size: 1em;
-    font-weight: 1;
+    font-weight: 100;
 }
 
 .image {
-position: relative;
-width: 100%;
+position: center;
+width: 97%;
 min-width: 300px;
 object-fit: cover;
-margin: 0;
+margin: 5px;
     
 }
 
 .content-image {
-    margin-left: 30px;
-    margin-top: 12px;
+    margin-top: 100px;
 }
 
 .content {
     display: flex;
-    text-align: center;
+    text-align: left;
+    font-family: 'Raleway';
+
+    /*color: #1c3a6b;*/
 }
 
 .content-info {
-    border-right: 2px solid #6A8CB0;
-    padding: 0 2%;
+    border-right: 2px solid #1e61b0;
+    /*padding: 0 0;*/
+    padding-right: 1%;
     position: relative;
     margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 1.5%;
+    /*margin-right: 20px;*/
 }
+
+.content-header {
+    font-size: 1.3em;
+    text-align: left;
+    font-weight:bold;
+}
+
+/*.content-info > h2{*/
+/*   margin-left:0;*/
+/*    margin-right:auto;*/
+/*}*/
 
 .philosophy {
     display: flex;
     flex-direction: column;
+
 }
 
 #about-body {

@@ -84,7 +84,6 @@
 #payment-body > * > * > * {
     flex-basis: 33%;
     z-index: 2;
-    color: black;
     font-family: 'Raleway';
     margin: 0;
 }
@@ -94,12 +93,18 @@
     font-family: metrophobic;
 }
 
+#payment-body > * > * > h2 {
+     color: white;
+     font-weight: bolder;
+     /*-webkit-text-stroke: 0.05px #3050a1;*/
+ }
 #payment-body > * > * > p {
+    /*color: #1c3a6b;*/
     padding-left: 5%;
 }
 
 #paypal-container {
-    border: 1.2px solid #3050a1;
+    border: 1.2px solid #1c3a6b;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-image: url("https://images.unsplash.com/photo-1521791055366-0d553872125f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
     background-size: 100vh;
