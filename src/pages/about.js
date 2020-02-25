@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import '../styles/about.css'
+import logo from "../images/coopLogobigger.png"
 
 const About = () => (
     <Layout>
@@ -49,7 +50,17 @@ const About = () => (
                         </div>
                         <div class="content-image image">
                                 <img src="https://i.imgur.com/pE5wX7L.jpg"  className="image" alt="Our Team!"/>
+                                <div>
+                                  <img className="logo" src= {logo} alt="the cooperative official logo"></img><br/>
+                                </div>
                             </div>
+                     {/*<div class={"contentlogo-image image"}>*/}
+                     {/*  <img className="logo" src= {logo} alt="the cooperative official logo"></img><br/>*/}
+                     {/*  */}
+                     {/*</div>*/}
+                     {/*<div className="content-image image">*/}
+                     {/*  <img className="logo" src= {logo} alt="the cooperative official logo"></img><br/>*/}
+                     {/*</div>*/}
                    </div>
 
                

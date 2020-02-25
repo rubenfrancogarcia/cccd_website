@@ -11,7 +11,8 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className = "home-view"> 
         <div className="home-view-header">
-            <img alt="Coop Homecare" className="home-view-image" src="https://p1.piqsels.com/preview/912/170/539/warm-moved-the-years-cover-hand-love-life.jpg"></img>
+            {/*<img alt="Coop Homecare" className="home-view-image" src="https://p1.piqsels.com/preview/912/170/539/warm-moved-the-years-cover-hand-love-life.jpg"></img>*/}
+            <img alt="Coop Homecare" className="home-view-image" src="https://images.unsplash.com/photo-1559234938-b60fff04894d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"></img>
             <div className="home-view-title"> Co-op Homecare </div>
         </div>
         

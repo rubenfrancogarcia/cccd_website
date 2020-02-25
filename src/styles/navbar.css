@@ -36,14 +36,17 @@
 .navbar-logo {
     flex-basis: 30%;
     margin: auto;
-    text-align: center;
+    margin-left: 40px;
+    text-align: left;
     order: 2;
+
 }
 
 .navbar-logo > a > img {
     max-width: 60%;
-    max-height: 100px;
+    max-height: 120px;
     margin: 0;
+    margin-bottom: -10px;
 }
 
 .navbar-menu-items {
