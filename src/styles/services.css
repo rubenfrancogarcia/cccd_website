@@ -60,9 +60,7 @@ h4 {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-    opacity: 70%;
-    filter: saturate(80%);
-    filter: hue-rotate(20deg);
+    /*opacity: 70%;*/
 }
 
 #services-header::after {
