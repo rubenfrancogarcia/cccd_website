@@ -68,7 +68,7 @@
 #payment-body > * {
     margin: 2% 0 0 2%;
     width: 96%;
-    position:relative;
+    position: relative;
     min-height: 225px;
 }
 
@@ -98,7 +98,7 @@
 #payment-body > * > * > h2 {
      color: white;
      font-weight: bolder;
-     /*-webkit-text-stroke: 0.05px #3050a1;*/
+    text-shadow: 1px 1px #000000;
  }
 #payment-body > * > * > p {
     /*color: #1c3a6b;*/
@@ -106,10 +106,12 @@
 }
 
 #paypal-container {
-    border: 1.2px solid #1c3a6b;
+    border: 1px solid #1c3a6b;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-image: url("https://images.unsplash.com/photo-1521791055366-0d553872125f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
     background-size: 100vh;
+    background-position: -10% 0%;
+
 
 }
 
@@ -128,10 +130,11 @@
 
 
 #donate-container {
-    border: 1.2px solid #3050a1;
+    border: 1px solid #3050a1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-image: url("https://images.pexels.com/photos/339620/pexels-photo-339620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-size: 100vh;
+    background-position: -20% 50%;
 }
 
 #donate-container::after {
@@ -148,7 +151,7 @@
 }
 
 #check-container {
-    border: 1.2px solid #3050a1;
+    border: 1px solid #3050a1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-image: url("https://www.publicdomainpictures.net/pictures/220000/velka/open-notebook-with-red-pen.jpg");
     margin-bottom: 2%;
