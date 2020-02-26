@@ -130,7 +130,7 @@
 
 
 #donate-container {
-    border: 1px solid #3050a1;
+    border: 1px solid #1c3a6b;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-image: url("https://images.pexels.com/photos/339620/pexels-photo-339620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-size: 100vh;
@@ -151,7 +151,7 @@
 }
 
 #check-container {
-    border: 1px solid #3050a1;
+    border: 1px solid #1c3a6b;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-image: url("https://www.publicdomainpictures.net/pictures/220000/velka/open-notebook-with-red-pen.jpg");
     margin-bottom: 2%;

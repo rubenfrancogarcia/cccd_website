@@ -105,7 +105,7 @@ const Services = () => (
                         <table>
                             <tbody> 
                             <tr>
-                            <th className="table-category table-hours" bgcolor="#4287f5">Hours</th>
+                            <th className="table-category table-hours" bgcolor="#0682c4">Hours</th>
                             <th className="table-category table-inner" bgcolor="#1c3a6b">Weekdays</th>
                             <th className="table-category table-inner" bgcolor="#1c3a6b">Weekends</th>
                           </tr>
