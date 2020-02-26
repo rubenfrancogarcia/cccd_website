@@ -36,7 +36,9 @@
     display: block;
     position: absolute;
     background: black;
-    opacity: 0.35;
+    opacity: 0.15;
+	/*background: #054F67;*/
+	/*opacity: 0.5;*/
 }
 
 
