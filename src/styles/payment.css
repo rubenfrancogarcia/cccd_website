@@ -55,7 +55,7 @@
 #payment-header > div > h1 {
 	font-family: 'Raleway';
     font-size: 2em;
-    font-weight: bold;
+    font-weight: 100;
     margin: 0;
 }
 

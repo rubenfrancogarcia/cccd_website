@@ -34,8 +34,9 @@ h4 {
     color: white;
    /*margin-top: 28%;*/
     font-family: 'Raleway';
-    margin-left: -30%;
+    margin-left: -27%;
     text-shadow: 1px 1px #000000;
+    font-weight: 100;
 
 }
 
@@ -45,10 +46,10 @@ h4 {
     text-shadow: 1px 1px #000000;
     /*font-size: 2em;*/
     text-align: center;
-    margin-left: -15%;
+    margin-left: -14%;
+    font-weight: 100;
 
 }
-
 
 #services-header img {
 	height: 35vh;
@@ -290,7 +291,7 @@ h4 {
     }
 
     #section2 > div > div {
-        box-shadow: 0;
+        box-shadow: none;
     }
 }
 

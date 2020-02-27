@@ -33,7 +33,7 @@
 
 #About-Header > div {
 	position: absolute;
-	left: 40%;
+	left: 42.5%;
 	top: 10vh;
 	color: white;
 	z-index: 2;
@@ -43,9 +43,10 @@
 #About-Header > div > h1 {
 	font-family: Raleway;
     font-size: 2.5em;
-    font-weight: bold;
+    font-weight: 100;
     margin: 0;
     text-shadow: 1px 1px #000000;
+
 }
 
 #About-Header > div > p {
