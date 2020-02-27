@@ -53,9 +53,12 @@ const Payment = () => (
             
         </div>
         <div id = "payment-mobile-view">
-                    <h1> Online Payments </h1>
+
             <div id = "payment-header">
                 <img src="https://p2.piqsels.com/preview/271/703/795/copy-space-notebook-wooden-journal.jpg" alt=""></img>
+                <div>
+                    <h1> Online Payments </h1>
+                </div>
             </div>
         
             <div id = "payment-body">

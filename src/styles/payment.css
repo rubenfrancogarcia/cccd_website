@@ -181,9 +181,12 @@
             display: inline-block;
         }
 
-        #donate-container, #check-container , #paypal-container {
+
+    #donate-container, #check-container, #paypal-container {
             background-image: none;
+            background-color: #c5ccd1;
         }
+
 
         #donate-container::after , #check-container::after , #paypal-container::after {
             display: none;
@@ -193,10 +196,10 @@
             display: inline-block;
         }
 
-        h1 {
-            text-align: center;
-            margin-left: 5px;
-            margin-right: 5px;
+     #payment-header > div > h1 {
+            /*text-align: center;*/
+            margin-left: -55px;
+            /*margin-right: 20px;*/
             font-weight: 400;
         }
 

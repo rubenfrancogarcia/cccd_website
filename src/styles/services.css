@@ -262,6 +262,7 @@ h4 {
 }
 
 @media only screen and (max-width: 800px)  {
+
     .big-service-block > img {
        display: none;
     }
@@ -282,6 +283,13 @@ h4 {
 }
 
 @media only screen and (max-width: 695px) {
+    #services-header div > h1 {
+        margin-left: -170px;
+    }
+
+    #services-header div > h2 {
+        margin-left: -170px;
+    }
     #section1 {
         flex-direction: column;
         padding-top: 0;

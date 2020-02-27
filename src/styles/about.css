@@ -130,5 +130,10 @@ h3 {
     .content-image {
         display: none;
     }
+    #About-Header > div > h1 {
+        margin-left: -50px;
+    }
+
 }
+
     
