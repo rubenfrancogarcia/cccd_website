@@ -40,12 +40,18 @@ const About = () => (
                             </div>
                             <h2 class={"content-header"} >Our Vision</h2>
                             <div class="content vision">
-                            <p>CCCD expects to be providing assistance to the cooperative through 2021 to provide a solid foundation for 
-                            business success and growth. The goal is for the cooperative to grow and offer worker-cooperative opportunities to more caregivers within 
-                            Yolo County and to expand to provide quality and compassionate home care in Dixon, and, eventually, areas in Sacramento. </p>
+                              <p>
+                                Co-op Home Care will be the region’s number one source of In-home support serves. We intend to grow geographically,
+                                from providing care in Yolo County and Dixon to encompass regions in Sacramento. Growth will allow us to provide
+                                services to more clients and to grow employment and co-ownership opportunities for more caregivers.
+                              </p>
+                              </div>
+                              <div className="content vision">
+                            <p>CCCD will be providing assistance to the cooperative through 2021 to provide a solid foundation for
+                            business success and growth. The goal is for the cooperative to grow and offer worker-cooperative opportunities to more caregivers within the regions of care. </p>
                             </div>
                             <div class="donation">
-                            Donations to <a href="https://cccd.coop/">CCCD</a> support the non-profit’s support of this project. <a href="/services"> Learn more about what we do > </a>
+                            Donations to <a href="https://cccd.coop/">CCCD</a> support the non-profit’s support of this project.
                             </div>
                         </div>
                         <div class="content-image image">

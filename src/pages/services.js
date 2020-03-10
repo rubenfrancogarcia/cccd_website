@@ -79,10 +79,11 @@ const Services = () => (
                         </div>
                         
                         <div>
-                            <h4> Disabilities </h4>
-                            <p> 
-                                We provide personal care services for adults who are recovering from a serious injury or illness, have  
-                                chronic conditions or progressive diseases, physical disabilities, or cognitive disabilities.
+                            <h4> Rehabilitative Care Support & Disabilities </h4>
+                            <p>
+                                We provide personal post-hospital support and services for adults who are recovering from a serious injury or
+                                illness, have chronic conditions or progressive diseases, physical limitations, or cognitive
+                                disabilities.
                             </p>
                         </div>
                         

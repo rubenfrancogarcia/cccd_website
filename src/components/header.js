@@ -23,7 +23,7 @@ export default class Header extends Component  {
                 <p> Co-op Homecare </p>
                 <div>
                     <a href="tel:530-297-1023"> &#9743; 1-530-297-1032 </a>
-                    <a href = "mailto: info@cccd.coop"> &#9993; info@cccd.coop </a>
+                    <a href = "mailto: info@cccd.coop"> &#9993; info@coophomecare.coop </a>
                 </div>
             </div>
             

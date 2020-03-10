@@ -73,7 +73,7 @@ const Payment = () => (
                 <div id = "donate-container">
                     <div>
                         <h2> Make a Donation </h2>
-                        <p> A tax-deductible donation to the non-profit, the <i> California Center for Cooperative Development </i> helps them support the sustainability 
+                        <p> A tax-deductible donation to the non-profit, the <i> California Center for Cooperative Development </i> helps support the sustainability
                             and growth of Co-op Homecare!</p>
                             <div className ="link-container"><a href="https://cccd.coop/membership/donate-cccd"> Click to donate to CCCD  </a> </div>
                     </div>

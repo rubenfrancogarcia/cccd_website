@@ -6,7 +6,7 @@ const Footer = () => (
     <footer>
       <div id="footer-left">
            <h1> Co-op Home Care </h1>
-           <p> California Center for Cooperative Development </p>
+        <p> A project of the non-profit: California Center for Cooperative Development:  <a href="https://cccd.coop/">cccd.coop </a> </p>
       </div>
       
       <div id="footer-right">
@@ -20,7 +20,7 @@ const Footer = () => (
               
                 <p id = "OtherContactInfo">
                     <a href="tel:530-297-1023"> Phone:  530-297-1032 </a> <br/>
-                    <a href = "mailto: info@cccd.coop"> Email: info@cccd.coop</a>
+                    <a href = "mailto: info@coophomecare.coop"> Email: info@coophomecare.coop</a>
                 </p>
             </div>
       </div>

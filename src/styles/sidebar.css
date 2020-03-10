@@ -22,7 +22,7 @@
     margin-bottom: 0;
     color: black;
     font-size: 1.3em;
-    text-decoration: underline #006bd6;
+    /*text-decoration: underline #006bd6;*/
 }
 
 .info-panel > h2 {
@@ -104,13 +104,14 @@
 
 .segues > div > a {
     font-family: Tajawal, sans-serif;
-    font-weight: 900;
+    font-weight: bold;
+    font-size: 1.1em;
     position: absolute;
     z-index: 9;
     bottom: 5%;
     left: 5%;
     margin: 0;
-    font-weight: 300;
+    /*font-weight: 300;*/
     color: white;
 }
 
