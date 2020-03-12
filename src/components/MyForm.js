@@ -15,7 +15,7 @@ export default class MyForm extends React.Component {
         <form
           id="fs-contact"
           onSubmit={this.submitForm}
-          action="https://formspree.io/moqqqygd"
+          action="https://formspree.io/xvoqodak"
           method="POST"
         >
 
@@ -121,4 +121,5 @@ formName: homecare_contact
 /* form spring info:
 email: info@coophomecare.coop
 pw: Cooperatives!
+formname: contactForm
  */

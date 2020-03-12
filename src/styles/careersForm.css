@@ -35,7 +35,7 @@ button[type=submit]:hover {
 }
 
 .box {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     float: none;
     padding: 4%;
@@ -49,8 +49,13 @@ h2 {
     font-weight: 100;
 }
 
+/*p {*/
+/*    font-family: 'Raleway';*/
+/*    text-align: center;*/
+/*}*/
+
 .col-view {
-    width: 70%;
+    width: 100%;
     float:none;
     margin: auto;
 }

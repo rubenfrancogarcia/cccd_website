@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import "../styles/careers.css"
-import ContactTemplate from '../components/contactTemplate'
+import MyFormcareer from '../components/careersForm'
 
 const careers = () => (
     <Layout>
@@ -24,7 +24,7 @@ const careers = () => (
             </div>
             {/*<div>*/}
             {/*    <h2> Ready to join? Here is a link to an application – </h2>*/}
-                <ContactTemplate/>
+                <MyFormcareer/>
 
             {/*</div>*/}
 
