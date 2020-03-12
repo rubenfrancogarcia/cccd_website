@@ -25,30 +25,32 @@ const Payment = () => (
                         <PaypalButtons />
                     </div>
                 </div>
-                
-                <div id = "donate-container">
-                    <div>
-                        <h2> Make a Donation </h2>
-                        <p> A tax-deductible donation to the non-profit, the <i> California Center for Cooperative Development </i> helps them support the sustainability 
-                            and growth of Co-op Homecare!</p>
-                            <div className ="link-container"><a href="https://cccd.coop/membership/donate-cccd"> Click to donate to CCCD  </a> </div>
-                    </div>
-                    
-                </div>
 
                 <div id = "check-container">
                     <div>
                         <h2> Pay by Check  </h2>
-                        <p> Payments via checks will not be charged a fee. Please send all checks  
-                            addressed to <strong> Co-op Home Care </strong>to the following address 
-                            <strong> 979 F street, Suite A-2, Davis, California 95616.</strong>.  
+                        <p> Payments via checks will not be charged a fee. Please send all checks
+                            addressed to <strong> Co-op Home Care </strong>to the following address
+                            <strong> 979 F street, Suite A-2, Davis, California 95616.</strong>.
                         </p>
                         <div className ="link-container">
-                            <a href="https://goo.gl/maps/ogjx6M2Ku7BCKEUA7"> Click for Instructions  </a> 
+                            <a href="https://goo.gl/maps/ogjx6M2Ku7BCKEUA7"> Click for Instructions  </a>
                         </div>
                     </div>
-                    
+
                 </div>
+                
+                <div id = "donate-container">
+                    <div>
+                        <h2> Make a Donation </h2>
+                        <p> A tax-deductible donation to the non-profit, the <i> California Center for Cooperative Development </i> helps them support the sustainability
+                            and growth of Co-op Homecare!</p>
+                            <div className ="link-container"><a href="https://cccd.coop/membership/donate-cccd"> Click to donate to CCCD  </a> </div>
+                    </div>
+
+                </div>
+
+
             </div>
             
         </div>

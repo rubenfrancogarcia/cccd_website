@@ -60,13 +60,13 @@
 }
 
 #payment-body {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    position:relative;
+    position: relative;
 }
 
 #payment-body > * {
-    margin: 2% 0 0 2%;
+    margin: 2% 0 2% 2%;
     width: 96%;
     position: relative;
     min-height: 225px;

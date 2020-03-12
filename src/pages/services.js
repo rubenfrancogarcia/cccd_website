@@ -105,54 +105,54 @@ const Services = () => (
                     
                     <div id="pricing-panel">
                         <h4>Hourly Rates</h4>
-                        <p> Hourly charges for private-pay home care service are adjusted based on the amount of time scheduled. The minimum amount of time is one hour. </p>
-                        <table>
-                            <tbody> 
-                            <tr>
-                            <th className="table-category table-hours" bgcolor="#0682c4">Hours</th>
-                            <th className="table-category table-inner" bgcolor="#1c3a6b">Weekdays</th>
-                            <th className="table-category table-inner" bgcolor="#1c3a6b">Weekends</th>
-                          </tr>
-                          <tr>
-                            <td className="table-hours" bgcolor="white">1 Hour</td>
-                            <td className="table-inner" bgcolor="#FAFAFA">43.00/hr</td>
-                            <td className="table-inner" bgcolor="#FAFAFA">43.00/hr</td>
-                          </tr>
-                          <tr>
-                            <td className="table-hours"bgcolor="white">2 Hours</td>
-                            <td className="table-inner" bgcolor="#FAFAFA">34.00/hr</td>
-                            <td className="table-inner" bgcolor="#FAFAFA">34.00/hr</td>
-                          </tr>
-                          <tr>
-                            <td className="table-hours"bgcolor="white">3 or More Hours</td>
-                            <td className="table-inner" bgcolor="#FAFAFA">29.50/hr</td>
-                            <td className="table-inner" bgcolor="#FAFAFA">34.00/hr</td>
-                          </tr>
+                        <p> Charges for private-pay home care service are assessed based on the service needs of the client, the amount of time scheduled, and whether the care is provided in the evening, night, during the weekend, or on a major holiday.  The minimum time spent per visit is three hours.  </p>
+                        {/*<table>*/}
+                        {/*    <tbody> */}
+                        {/*    <tr>*/}
+                        {/*    <th className="table-category table-hours" bgcolor="#0682c4">Hours</th>*/}
+                        {/*    <th className="table-category table-inner" bgcolor="#1c3a6b">Weekdays</th>*/}
+                        {/*    <th className="table-category table-inner" bgcolor="#1c3a6b">Weekends</th>*/}
+                        {/*  </tr>*/}
+                        {/*  <tr>*/}
+                        {/*    <td className="table-hours" bgcolor="white">1 Hour</td>*/}
+                        {/*    <td className="table-inner" bgcolor="#FAFAFA">43.00/hr</td>*/}
+                        {/*    <td className="table-inner" bgcolor="#FAFAFA">43.00/hr</td>*/}
+                        {/*  </tr>*/}
+                        {/*  <tr>*/}
+                        {/*    <td className="table-hours"bgcolor="white">2 Hours</td>*/}
+                        {/*    <td className="table-inner" bgcolor="#FAFAFA">34.00/hr</td>*/}
+                        {/*    <td className="table-inner" bgcolor="#FAFAFA">34.00/hr</td>*/}
+                        {/*  </tr>*/}
+                        {/*  <tr>*/}
+                        {/*    <td className="table-hours"bgcolor="white">3 or More Hours</td>*/}
+                        {/*    <td className="table-inner" bgcolor="#FAFAFA">29.50/hr</td>*/}
+                        {/*    <td className="table-inner" bgcolor="#FAFAFA">34.00/hr</td>*/}
+                        {/*  </tr>*/}
 
-                            </tbody>
-                        </table>
+                        {/*    </tbody>*/}
+                        {/*</table>*/}
                         
-                        <ul>
-                            <li>Weekdays: $29.50 per hour for shifts of 3 hours or more, $34 per hour for 2 hour shifts, and $43 for visits of one hour or less.</li>
-                            <li>Weekends: $34 per hour for shifts of 2 hours or more, $43 for visits of one hour or less</li>
-                            <li>After one hour has elapsed, shifts are billed in quarter-hour increments.</li>
-                            <li>Clients receiving round-the-clock care will be billed a discounted flat rate of $650 per 24 hours.</li>
-                            <li>We charge time and one half for services provided on the following holidays: New Year’s Day, Memorial Day, Independence Day, Labor Day, Thanksgiving Day, and Christmas Day.</li>
-                            <li>Clients are charged for mileage when services for the client include client transportation (e.g. errands, shopping). Mileage is charged at the current IRS standard mileage rate.</li>
-                        </ul>  
+                        {/*<ul>*/}
+                        {/*    <li>Weekdays: $29.50 per hour for shifts of 3 hours or more, $34 per hour for 2 hour shifts, and $43 for visits of one hour or less.</li>*/}
+                        {/*    <li>Weekends: $34 per hour for shifts of 2 hours or more, $43 for visits of one hour or less</li>*/}
+                        {/*    <li>After one hour has elapsed, shifts are billed in quarter-hour increments.</li>*/}
+                        {/*    <li>Clients receiving round-the-clock care will be billed a discounted flat rate of $650 per 24 hours.</li>*/}
+                        {/*    <li>We charge time and one half for services provided on the following holidays: New Year’s Day, Memorial Day, Independence Day, Labor Day, Thanksgiving Day, and Christmas Day.</li>*/}
+                        {/*    <li>Clients are charged for mileage when services for the client include client transportation (e.g. errands, shopping). Mileage is charged at the current IRS standard mileage rate.</li>*/}
+                        {/*</ul>  */}
                     </div>
                     
 
-                    <div id="cancellation-panel">
-                            <h4>Cancellations and Changes</h4>
-                            <p> 
-                                We ask clients to kindly provide as much notice as possible when cancelling services.  
-                                If a caregiver is en-route to, or arrives for a scheduled shift and the client declines 
-                                service, the agency will assess a late cancellation fee of $43. If untimely schedule 
-                                changes or cancellations are frequent, We may be forced to decline future services or to 
-                                impose the late cancellation fee if continued services are desired.
-                            </p>
-                    </div>
+                    {/*<div id="cancellation-panel">*/}
+                    {/*        <h4>Cancellations and Changes</h4>*/}
+                    {/*        <p> */}
+                    {/*            We ask clients to kindly provide as much notice as possible when cancelling services.  */}
+                    {/*            If a caregiver is en-route to, or arrives for a scheduled shift and the client declines */}
+                    {/*            service, the agency will assess a late cancellation fee of $43. If untimely schedule */}
+                    {/*            changes or cancellations are frequent, We may be forced to decline future services or to */}
+                    {/*            impose the late cancellation fee if continued services are desired.*/}
+                    {/*        </p>*/}
+                    {/*</div>*/}
                     
                 </div>
             </div>

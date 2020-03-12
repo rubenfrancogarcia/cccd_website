@@ -22,8 +22,12 @@ const careers = () => (
                 </p>
                 <a href="/about"> Learn more about us > </a>
             </div>
-            
-            <ContactTemplate/>
+            {/*<div>*/}
+            {/*    <h2> Ready to join? Here is a link to an application – </h2>*/}
+                <ContactTemplate/>
+
+            {/*</div>*/}
+
         </div>
     </Layout>
 )
