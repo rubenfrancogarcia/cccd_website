@@ -17,6 +17,9 @@ const IndexPage = () => (
         </div>
         
         <div className="home-view-content">
+            <h1>
+                Co-op Homecare will OPEN SOON!
+            </h1>
             We’re a local home care cooperative!  Call or email us for a FREE consultation to review Care Options. 
             <br/><br/>
             <b>Co-op Homecare</b> is a worker-owned cooperative dedicated to providing the highest quality of care for our clients.

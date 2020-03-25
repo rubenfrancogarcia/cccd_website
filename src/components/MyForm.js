@@ -26,6 +26,7 @@ export default class MyForm extends React.Component {
                 value={this.state.fullName}
                 onChange={this.handleInputChange}
                 id="name"
+
                 /> 
             </label>
         </div>
@@ -38,7 +39,7 @@ export default class MyForm extends React.Component {
                 value={this.state.phoneNumber}
                 onChange={this.handleInputChange}
                 id="phoneNumber"
-                />
+                required/>
             </label>
         </div>
 
@@ -50,7 +51,7 @@ export default class MyForm extends React.Component {
                      value={this.state.zipCode}
                      onChange={this.handleInputChange}
                      id="zipCode"
-              />
+                     required/>
             </label>
           </div>
 
@@ -61,7 +62,7 @@ export default class MyForm extends React.Component {
                 value={this.state.emailAddress}
                 onChange={this.handleInputChange}
                 id="emailAddress"
-                />
+                       required/>
             </label>
         </div>
 
@@ -86,6 +87,8 @@ export default class MyForm extends React.Component {
         </form>
       );
     }
+
+
   
     submitForm(ev) {
       ev.preventDefault();
@@ -106,6 +109,7 @@ export default class MyForm extends React.Component {
       xhr.send(data);
     }
   }
+
 
 /* 
 FormSpring info: 

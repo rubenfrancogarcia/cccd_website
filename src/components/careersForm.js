@@ -32,7 +32,7 @@ formName: homecare_contact
 */
 
 
-/* form spring info:
+/* formspring info:
 email: info@coophomecare.coop
 pw: Cooperatives!
 formname: contactForm
