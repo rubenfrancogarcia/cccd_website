@@ -31,8 +31,8 @@ const Services = () => (
                             <ul>
                                 <li>Mobility Assistance</li>
                                 <li>Companionship</li>
-                                <li>Nail Care</li>
                                 <li>Monitoring</li>
+                                <li>Bathing, Dressing & Grooming</li>
                                 <li>Toileting and Incontinence Care</li>
                                 <li>Medication Reminders & Care Coordination</li>
                                 <li>Medical Team Liaison</li>
@@ -71,11 +71,11 @@ const Services = () => (
                     
                     <div>
                         <div>
-                            <h4> Dementia </h4>
+                            <h4> Specialty Care for Conditions  </h4>
                             <p> 
-                                Most caregivers are specially trained in caring for clients across the spectrum of progressive dementia. 
-                                Training includes compassionately and skillfully recognizing cognitive and psychological/behavior changes.
+                                Caregivers are educated in the characteristics of specific conditions and how                                 each can be supported in a manner that promotes quality of life and dignity.
                             </p>
+                            
                         </div>
                         
                         <div>
@@ -98,7 +98,20 @@ const Services = () => (
                     </div>
                     
                 </div>
-                
+                <div id = "section4">
+                    <p>
+                            <b>Alzheimer’s</b> assistance supports clients and families along disease                                    progression
+                            </p>
+                            <p>
+                            <b>Dementia</b> care is attentive and promotes communication and memory support
+                            </p>
+                            <p>
+                            <b>Parkinson's</b> support involves clients to discern the best ways to promote                              safety and self-esteem
+                            </p>
+                            <p>
+                            <b>Stroke</b> care incorporates the advice of the client’s medical professionals                             to empower and support the client.
+                            </p>
+            </div>
 
                   <h3>Pricing</h3>
                 <div id="section3">
