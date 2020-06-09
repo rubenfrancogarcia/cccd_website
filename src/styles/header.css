@@ -14,7 +14,7 @@ header {
     margin: 0;
     font-family: Metrophobic;
     color: white;
-    font-size: .95em;
+    font-size: 1em;
 }
 
 #top-navbar > p {
@@ -27,7 +27,7 @@ header {
     display: flex;
     justify-content: flex-end;
     flex-basis: 30%;
-    flex: 0.1;
+    flex: 1;
 }
 
 #top-navbar > div > * {

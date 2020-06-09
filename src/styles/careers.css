@@ -7,14 +7,15 @@
     background-color: white;
     flex-basis: 70%;
     padding: 5%;
-    font-family: 'Raleway';
+    font-family: Lato, sans-serif;
     font-weight: Medium;
+    font-size: 1.1em;
 }
 
 
 
 #About-Left > * {
-    font-family: 'Raleway';
+    font-family: Lato, sans-serif;
     font-weight: Medium;
 }
 
@@ -23,7 +24,7 @@
 }
 
 #About-Left > p {
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 #About-Right {
@@ -52,7 +53,7 @@
  
 /* Email form */
 #careers-main h2{
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 #careers-main input{

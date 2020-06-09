@@ -37,7 +37,8 @@ const Services = () => (
                                 <li>Medication Reminders & Care Coordination</li>
                                 <li>Medical Team Liaison</li>
                                 <li>Recreational and Community Activities</li>
-                                <li>Planning, Preparing & Serving Nutritious Meals</li>
+                                <li>Planning, Preparing & Serving Nutritious</li>
+                                <li> Meals</li>
                                 <li>Shopping, Errands</li>
                                 <li>Tell us other ways we can help!</li>
                             </ul>  

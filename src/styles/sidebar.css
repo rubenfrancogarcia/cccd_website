@@ -27,7 +27,7 @@
 
 .info-panel > h2 {
     margin-top: 4%;
-    font-size: 0.85em;
+    font-size: 1em;
     color: black;
     font-weight: 300;
     padding: 0;
@@ -105,7 +105,7 @@
 .segues > div > a {
     font-family: Tajawal, sans-serif;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.4em;
     position: absolute;
     z-index: 9;
     bottom: 5%;
