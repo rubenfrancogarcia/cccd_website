@@ -64,41 +64,40 @@ const Services = () => (
                             </ul>  
                         </div>
                     </div>
-                </div>
-                
-                
-                <h3>Specialty Services</h3>
-                <div id="section2">
                     
-                    <div>
+                </div>
+
+                <h3> Specialty Services </h3>
+                <div id="section1">
+                
+                    <div className="big-service-block-2">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ71yU2rkwTg_K3pD8MkW3UaCoBMy3LdNBEWv77pk0C2-PcRNzkBw&s" alt="Personal Care Icon"></img>
                         <div>
-                            <h4> Specialty Care for Conditions  </h4>
+                            <h4>  Special Conditions </h4>
                             <p> 
                                 Caregivers are educated in the characteristics of specific conditions and how                                 each can be supported in a manner that promotes quality of life and dignity.
                             </p>
-                            
                         </div>
-                        
+                    </div>
+
+                    <div className="big-service-block-2">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ71yU2rkwTg_K3pD8MkW3UaCoBMy3LdNBEWv77pk0C2-PcRNzkBw&s" alt="Personal Care Icon"></img>
                         <div>
-                            <h4> Rehabilitative Care Support & Disabilities </h4>
-                            <p>
+                            <h4>  For Rehabilitative </h4>
+                            <p> 
                                 We provide personal post-hospital support and services for adults who are recovering from a serious injury or
                                 illness, have chronic conditions or progressive diseases, physical limitations, or cognitive
                                 disabilities.
                             </p>
                         </div>
-                        
-                        <div>
-                            <h4> Private Care </h4>
-                            <p> 
-                                We accept private pay clients and cater to client needs. We will work with Long Term Care Insurance Plans 
-                                for client claim reimbursement.   At this time we are unable to accept public pay clients, but hope to 
-                                expand our services to include a wide range of public pay options in the future.
-                            </p>
-                        </div>
                     </div>
                     
+                    
                 </div>
+                
+                
+                
+               
                 <div id = "section4">
                     <p>
                             <b>Alzheimer’s</b> assistance supports clients and families along disease                                    progression
@@ -114,12 +113,15 @@ const Services = () => (
                             </p>
             </div>
 
-                  <h3>Pricing</h3>
+                  <h3>Pricing and Payments</h3>
                 <div id="section3">
                     
                     <div id="pricing-panel">
-                        <h4>Hourly Rates</h4>
-                        <p> Charges for private-pay home care service are assessed based on the service needs of the client, the amount of time scheduled, and whether the care is provided in the evening, night, during the weekend, or on a major holiday.  The minimum time spent per visit is three hours.  </p>
+                        <p> <b>Hourly Rates: </b>Charges for home care service are assessed based on the service needs of the client, the amount of time scheduled, and whether the care is provided in the evening, night, during the weekend, or on a major holiday.  The minimum time spent per visit is three hours.  </p>
+                        <p> <b>Private Care:</b>   We accept private pay clients and cater to client needs. We will work with Long Term Care Insurance Plans 
+                                for client claim reimbursement.   At this time we are unable to accept public pay clients, but hope to 
+                                expand our services to include a wide range of public pay options in the future.
+                            </p>
                         {/*<table>*/}
                         {/*    <tbody> */}
                         {/*    <tr>*/}
