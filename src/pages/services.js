@@ -71,7 +71,7 @@ const Services = () => (
                 <div id="section1">
                 
                     <div className="big-service-block-2">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ71yU2rkwTg_K3pD8MkW3UaCoBMy3LdNBEWv77pk0C2-PcRNzkBw&s" alt="Personal Care Icon"></img>
+                        <img src="https://i.imgur.com/FJ2o6mR.png" alt="Special Conditions Icon"></img>
                         <div>
                             <h4>  Special Conditions </h4>
                             <p> 
@@ -81,7 +81,7 @@ const Services = () => (
                     </div>
 
                     <div className="big-service-block-2">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ71yU2rkwTg_K3pD8MkW3UaCoBMy3LdNBEWv77pk0C2-PcRNzkBw&s" alt="Personal Care Icon"></img>
+                        <img src="https://i.imgur.com/JDhDPxT.png" alt="Rehabilitation Icon"></img>
                         <div>
                             <h4>  For Rehabilitative </h4>
                             <p> 
