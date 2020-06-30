@@ -76,6 +76,18 @@ const Services = () => (
                             <h4>  Special Conditions </h4>
                             <p> 
                                 Caregivers are educated in the characteristics of specific conditions and how                                 each can be supported in a manner that promotes quality of life and dignity.
+                                
+                            </p>
+                            
+                            <h5> Services Include </h5>
+                            <p>
+                            <b>Alzheimer’s</b> assistance supports clients and families along disease progression
+                            <br></br>
+                            <b>Dementia</b> care is attentive and promotes communication and memory support
+                           <br></br>
+                            <b>Parkinson's</b> support involves clients to discern the best ways to promote safety and self-esteem
+                           <br></br>
+                            <b>Stroke</b> care incorporates the advice of the client’s medical professionals to empower and support the client.
                             </p>
                         </div>
                     </div>
@@ -83,11 +95,19 @@ const Services = () => (
                     <div className="big-service-block-2">
                         <img src="https://i.imgur.com/JDhDPxT.png" alt="Rehabilitation Icon"></img>
                         <div>
-                            <h4>  For Rehabilitative </h4>
+                            <h4> Rehabilitative Care </h4>
                             <p> 
                                 We provide personal post-hospital support and services for adults who are recovering from a serious injury or
                                 illness, have chronic conditions or progressive diseases, physical limitations, or cognitive
                                 disabilities.
+                                </p>
+                                <h5> Services Can Include </h5>
+                                <p>
+                              <span>&#8226;Supporting prescribed therapy to improve skills and functioning </span> 
+                              <br></br>
+                                <span>&#8226; Any of the services under personal care and care for the home presented above </span>
+                                <br></br>
+                                <span>&#8226;  Telephone check-ins </span>
                             </p>
                         </div>
                     </div>
