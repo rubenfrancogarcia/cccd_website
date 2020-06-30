@@ -83,9 +83,12 @@ const Services = () => (
                             <p>
                             <b>Alzheimer’s</b> assistance supports clients and families along disease progression
                             <br></br>
+                            <br></br>
                             <b>Dementia</b> care is attentive and promotes communication and memory support
                            <br></br>
+                           <br></br>
                             <b>Parkinson's</b> support involves clients to discern the best ways to promote safety and self-esteem
+                           <br></br>
                            <br></br>
                             <b>Stroke</b> care incorporates the advice of the client’s medical professionals to empower and support the client.
                             </p>
@@ -105,7 +108,9 @@ const Services = () => (
                                 <p>
                               <span>&#8226;Supporting prescribed therapy to improve skills and functioning </span> 
                               <br></br>
-                                <span>&#8226; Any of the services under personal care and care for the home presented above </span>
+                              <br></br>
+                                <span>&#8226; Any of the services under <i>Personal Care and Care for the Home</i> presented above </span>
+                                <br></br>
                                 <br></br>
                                 <span>&#8226;  Telephone check-ins </span>
                             </p>
