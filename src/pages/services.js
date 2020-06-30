@@ -79,7 +79,7 @@ const Services = () => (
                                 
                             </p>
                             
-                            <h5> Services Include </h5>
+                            <h5> Services Include: </h5>
                             <p>
                             <b>Alzheimer’s</b> assistance supports clients and families along disease progression
                             <br></br>
@@ -101,7 +101,7 @@ const Services = () => (
                                 illness, have chronic conditions or progressive diseases, physical limitations, or cognitive
                                 disabilities.
                                 </p>
-                                <h5> Services Can Include </h5>
+                                <h5> Services Can Include: </h5>
                                 <p>
                               <span>&#8226;Supporting prescribed therapy to improve skills and functioning </span> 
                               <br></br>
@@ -118,20 +118,7 @@ const Services = () => (
                 
                 
                
-                <div id = "section4">
-                    <p>
-                            <b>Alzheimer’s</b> assistance supports clients and families along disease                                    progression
-                            </p>
-                            <p>
-                            <b>Dementia</b> care is attentive and promotes communication and memory support
-                            </p>
-                            <p>
-                            <b>Parkinson's</b> support involves clients to discern the best ways to promote                              safety and self-esteem
-                            </p>
-                            <p>
-                            <b>Stroke</b> care incorporates the advice of the client’s medical professionals                             to empower and support the client.
-                            </p>
-            </div>
+                
 
                   <h3>Pricing and Payments</h3>
                 <div id="section3">
