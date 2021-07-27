@@ -8,17 +8,19 @@ const careers = () => (
         <div id = "careers-main">
             <div id = "careers-left"> 
                 <h1> Join Our Team! </h1>
-                <p> Passionate about people? Join our Team! </p>
+                <p> Are you passionate about caring for people? Join our Team! </p>
                 <img src="https://i.imgur.com/xo0vtgG.jpg" alt="Our Team!"></img>
                 <p>
-                    Co-op Home Care is a worker cooperative formed by a local non-profit, the California Center for Cooperative Development,
-                    to empower caregivers to share a homecare business that generates better pay and working conditions for caregivers.
-                    Co-op Homecare believes that people who need homecare support deserve quality services from a consistent caregiver, and
-                    caregivers deserve work stability, livable wages, and positive working conditions.
+                    As a worker-owned cooperative, Co-op Home Care is owned and operated by its workers. The worker-owned business model provides
+                    caregivers an opportunity to have a say in the decisions that affect their daily work lives and share in the profits of the business 
+                    in addition to their wages. Co-op Home Care was created to provide a more sustainable workplace for caregivers because they deserve 
+                    work stability, livable wages, and positive working conditions. In turn, our business model creates the foundation for our caregivers to build compassionate, 
+                    long lasting relationships with our clients who deserve quality and consistent care. 
+                
                 </p>
                 <p>
-                    Caregivers begin work with Co-op Home Care as an employee.  We hope that after six months of employment caregivers will
-                    be interested in joining the cooperative as a co-owner.  While this is a goal, membership is not a requirement.
+                    Caregivers begin work with Co-op Home Care as an employee. After a six-months trial period, caregivers will
+                    be invited to join the cooperative as a co-owner.
                 </p>
                 <a href="/about"> Learn more about us > </a>
             </div>
