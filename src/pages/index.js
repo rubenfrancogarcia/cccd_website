@@ -18,7 +18,7 @@ const IndexPage = () => (
         
         <div className="home-view-content">
             <h1>
-                Co-op Homecare will OPEN SOON!
+                Co-op Homecare IS OPEN!
             </h1>
             We’re a local home care cooperative!  Call or email us for a FREE consultation to review Care Options. 
             <br/><br/>
