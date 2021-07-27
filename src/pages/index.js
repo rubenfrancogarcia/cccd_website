@@ -24,7 +24,7 @@ const IndexPage = () => (
              <b> We are a local, independently owned and operated home care cooperative!</b>
             <br/><br/>
             <b>Co-op Home Care</b> is a worker-owned cooperative dedicated to providing quality and compassionate home care services throughout Yolo County and surrounding areas.
-            Our caregivers co-own and democratically control the business. The worker-owned model provides a compassionate 
+            Our caregivers co-own and democratically operate the business. The worker-owned model provides a compassionate 
             workplace that promotes worker dignity, job satisfaction, and a foundation to build a long lasting relationship with our clients. We incorporate these values into the work we do every day.
             
             <br/><br/>
