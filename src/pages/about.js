@@ -19,12 +19,12 @@ const About = () => (
                                     <h2 class={"content-header"}> Our Mission</h2>
                                     <div class="content mission ">
 
-                                 <p><b>Our mission is to provide compassionate, high quality in-home support services to our clients.</b></p>
+                                 <p><b>Our mission is to provide compassionate, high quality home care services to our clients.</b></p>
                                     </div>
                                     <h2 class={"content-header"}> Our Philosophy</h2>
                                     <div class="content philosophy">
                                         <div>
-                                        <p>Our worker-owned cooperative offers a win-win for clients and caregivers. Our caregivers co-own the business and we chose this work because we enjoy caregiving.  
+                                        <p>Our worker-owned cooperative offers a win-win for clients and caregivers. We co-own the business and we choose this work because we enjoy caregiving.  
                                         The worker-cooperative model gives us control over the decisions that affect our workplace and daily lives. This benefits our clients who gain quality services from a 
                                         committed team.</p> 
                                             </div> 
