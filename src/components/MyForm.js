@@ -109,21 +109,3 @@ export default class MyForm extends React.Component {
       xhr.send(data);
     }
   }
-
-
-/* 
-FormSpring info: 
-email: rubengarcia0515@gmail.com
-pw: Arson793.
-link: https://formspree.io/forms/moqqqygd/integration
-formName: homecare_contact
-*/
-
-
-
-
-/* form spring info:
-email: info@coophomecare.coop
-pw: Cooperatives!
-formname: contactForm
- */
