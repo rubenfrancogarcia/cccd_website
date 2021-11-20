@@ -19,7 +19,7 @@ const Footer = () => (
                 </p>
               
                 <p id = "OtherContactInfo">
-                    <a href="tel:530-297-1023"> Phone:  530-297-1032 </a> <br/>
+                    <a href="tel:(530) 746-5730"> Phone:  (530) 746-5730 </a> <br/>
                     <a href = "mailto: info@coophomecare.coop"> Email: info@coophomecare.coop</a>
                 </p>
             </div>
