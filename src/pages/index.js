@@ -20,19 +20,25 @@ const IndexPage = () => (
             <h1>
                 Co-op Homecare IS OPEN!
             </h1>
-            We’re a local home care cooperative!  Call or email us for a FREE consultation to review Care Options. 
+
             <br/><br/>
-            <b>Co-op Homecare</b> is a worker-owned cooperative dedicated to providing the highest quality of care for our clients.
-            Caregivers co-own and democratically control the business.  The worker-owned model provides us with a compassionate 
-            workplace that promotes worker dignity, we incorporate these values into the work we do every day.
+                  
+            <b>We are a local, independently owned and operated home care cooperative!</b>
+
+            <br/><br/>
+              
+            <b>Co-op Home Care</b> is a worker-owned cooperative dedicated to providing quality and compassionate home care services throughout Yolo County and surrounding areas.
+            Our caregivers co-own and democratically control the business. The worker-owned model provides a compassionate 
+            workplace that promotes worker dignity, job satisfaction, and a foundation to build a long lasting relationship with our clients. We incorporate these values into the work we do every day.
+           
+            <br/><br/>
+            Co-op Home Care is fully licensed and insured. Our caregivers are fully trained, first-aid certified, and have passed a background check.
             
             <br/><br/>
-            We provide homecare services throughout most areas of Yolo County.  Our cooperative is fully licensed, and insured. 
-            All caregivers are trained, first-aid certified, and have passed a background check.
+            Reach out to our office in Davis, California for a free consultation and care coordinator will match you with the right caregiver for your loved one's needs.
             
             <br/><br/>
-            <b>As a cooperative, our team of caregivers work together to provide compassionate, high quality 
-            in-home support services. Our business model emphasizes kindness to workers and kindness to clients. </b>
+            <b>"Our business model emphasizes kindness to workers and kindness to clients."</b>
         </div>
     </div>
     
