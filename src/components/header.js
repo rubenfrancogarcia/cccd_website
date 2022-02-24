@@ -22,7 +22,7 @@ export default class Header extends Component  {
             <div className = "navbar-top" id = "top-navbar">
                 <p> Co-op Homecare </p>
                 <div>
-                    <a href="tel:530-297-1023"> &#9743; 1-530-297-1032 </a>
+                    <a href="tel:530.746.5730"> &#9743; 530.746.5730 </a>
                     <a href = "mailto: info@cccd.coop"> &#9993; info@coophomecare.coop </a>
                 </div>
             </div>
