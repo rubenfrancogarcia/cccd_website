@@ -5,12 +5,12 @@ import segue1 from "../images/segue1.jpg"
 const Sidebar = () => (
     <div className="sidebar">
         <div className="info-panel">
-            <h1> Co-op Homecare </h1>
+            <h1> Co-op Home Care </h1>
             <h2> 
                 <ul>
-                        <ol> Local, Compassionate Care</ol>
-                        <ol> Professional Support Services </ol>
-                        <ol> Trusted, Caregiver Owned</ol>
+                        <ol> Local & Compassionate Care</ol>
+                        <ol> Professional Home Care Services </ol>
+                        <ol> Trusted & Caregiver Owned</ol>
                 </ul>  
             </h2>
         </div>
@@ -23,7 +23,7 @@ const Sidebar = () => (
             
             <div className="segue2">
                 <img alt="Join the Team" src="https://i.imgur.com/lPvlzyx.jpg"></img>
-                <a href="https://coophomecare.coop/careers/">  Join the Team!  </a>
+                <a href="https://coophomecare.coop/careers/">  Join the Team  </a>
             </div>
             <div className="segue1">
                 <img alt="Why Coops?" src={segue1}></img>
