@@ -1,8 +1,8 @@
 import React, { Component } from "react"
 import "../styles/header.css"
 import {Link} from "gatsby"
-import logo from "../images/coopLogo150px.png"
 import hamburger from "../images/menu.png"
+import logo from "../images/Co-op Home Care Logo (2).png"
 
 
 
