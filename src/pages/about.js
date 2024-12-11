@@ -20,7 +20,7 @@ const About = () => (
                                     <div class="content mission ">
 
                                     <p> 
-                                    Thank you for considering Co-op Homecare. We specialize in providing quality, compassionate caregiving services.</p>
+                                    Thank you for considering Co-op Home Care. We specialize in providing quality, compassionate caregiving services.</p>
 
                                         <p><b>Our mission is to provide compassionate, high quality in-home support services to our clients.</b></p>
                                     </div>
@@ -30,7 +30,7 @@ const About = () => (
                                         <p>Our worker-owned cooperative offers a win-win for clients and caregivers. Caregivers co-own this business; we chose this work because we enjoy caregiving.  The worker cooperative model provides us control over our workplace policies and better compensation.  This benefits clients who gain quality services from a committed team.</p> 
                                             </div> 
                                             <div> 
-                                            <p><i>Co-op Homecare</i> was initiated as a project of the local non-profit, the California Center for Cooperative Development (CCCD).
+                                            <p><i>Co-op Home Care</i> was initiated as a project of the local non-profit, the California Center for Cooperative Development (CCCD).
                                         The premise of the project is that people who need home care support deserve quality services from a consistent caregiver, and 
                                         caregivers deserve work stability, livable wages, and positive working conditions. The worker cooperative model is mutually beneficial
                                         for clients and caregivers: caregivers gain workplace advantages that encourage them to stay, and clients receive quality, reliable care
